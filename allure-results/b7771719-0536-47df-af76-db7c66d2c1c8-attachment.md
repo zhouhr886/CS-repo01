@@ -1,0 +1,79 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e9]
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: magl
+        - paragraph [ref=e12]: 深圳瑞亿
+    - combobox [ref=e13]:
+      - generic [ref=e14]:
+        - textbox "搜索" [ref=e15]
+        - generic [ref=e17]: 
+    - list [ref=e18]:
+      - listitem [ref=e19] [cursor=pointer]:
+        - img [ref=e20]
+        - generic [ref=e21]: 最近使用
+      - listitem [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e24]: 供应链协同
+      - listitem [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+        - generic [ref=e27]: 计划调度
+      - listitem [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e30]: 生产作业
+      - listitem [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e33]: 数字运营中心
+      - listitem [ref=e34] [cursor=pointer]:
+        - img [ref=e35]
+        - generic [ref=e36]: 质量协同
+      - listitem [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+        - generic [ref=e39]: 工业OS
+      - listitem [ref=e40] [cursor=pointer]:
+        - img [ref=e41]
+        - generic [ref=e42]: 市场销售
+      - listitem [ref=e43] [cursor=pointer]:
+        - img [ref=e44]
+        - generic [ref=e45]: 客户关系管理
+      - listitem [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - generic [ref=e48]: 配置中心
+      - listitem [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+        - generic [ref=e51]: 设备设施
+      - listitem [ref=e52] [cursor=pointer]:
+        - img [ref=e53]
+        - generic [ref=e54]: 工艺中心
+      - listitem [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e57]: AI平台
+      - listitem [ref=e58] [cursor=pointer]:
+        - img [ref=e59]
+        - generic [ref=e60]: 仓储配送
+    - img [ref=e61] [cursor=pointer]
+  - main [ref=e62]:
+    - text: 
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - tablist [ref=e68]:
+          - tab "最近使用" [ref=e69]:
+            - generic [ref=e70]:
+              - img [ref=e71]
+              - text: 最近使用
+          - tab "采购收料 " [selected] [ref=e72]:
+            - generic [ref=e73]:
+              - img [ref=e74]
+              - text: 采购收料
+            - generic [ref=e75]: 
+        - tabpanel "采购收料 " [ref=e77]:
+          - iframe [active] [ref=e78]:
+            
+      - text:   
+```

@@ -1,0 +1,373 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e9]
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: magl
+        - paragraph [ref=e12]: 深圳瑞亿
+    - combobox [ref=e13]:
+      - generic [ref=e14]:
+        - textbox "搜索" [ref=e15]
+        - generic [ref=e17]: 
+    - list [ref=e18]:
+      - listitem [ref=e19] [cursor=pointer]:
+        - img [ref=e20]
+        - generic [ref=e21]: 最近使用
+      - listitem [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e24]: 供应链协同
+      - listitem [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+        - generic [ref=e27]: 计划调度
+      - listitem [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e30]: 生产作业
+      - listitem [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e33]: 数字运营中心
+      - listitem [ref=e34] [cursor=pointer]:
+        - img [ref=e35]
+        - generic [ref=e36]: 质量协同
+      - listitem [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+        - generic [ref=e39]: 工业OS
+      - listitem [ref=e40] [cursor=pointer]:
+        - img [ref=e41]
+        - generic [ref=e42]: 市场销售
+      - listitem [ref=e43] [cursor=pointer]:
+        - img [ref=e44]
+        - generic [ref=e45]: 客户关系管理
+      - listitem [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - generic [ref=e48]: 配置中心
+      - listitem [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+        - generic [ref=e51]: 设备设施
+      - listitem [ref=e52] [cursor=pointer]:
+        - img [ref=e53]
+        - generic [ref=e54]: 工艺中心
+      - listitem [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e57]: AI平台
+      - listitem [ref=e58] [cursor=pointer]:
+        - img [ref=e59]
+        - generic [ref=e60]: 仓储配送
+    - img [ref=e61] [cursor=pointer]
+  - main [ref=e62]:
+    - text: 
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - tablist [ref=e68]:
+          - tab "最近使用" [ref=e69]:
+            - generic [ref=e70]:
+              - img [ref=e71]
+              - text: 最近使用
+          - tab "采购收料 " [selected] [ref=e72]:
+            - generic [ref=e73]:
+              - img [ref=e74]
+              - text: 采购收料
+            - generic [ref=e75]: 
+        - tabpanel "采购收料 " [ref=e77]:
+          - iframe [active] [ref=e78]:
+            - generic [active] [ref=f3e1]:
+              - img
+              - generic [ref=f3e3]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox "请输入模块的全称"
+                      - generic [ref=f3e5]: 
+                  - generic:
+                    - generic:
+                      - generic:
+                        - menubar:
+                          - generic:
+                            - menuitem "供应链协同" [expanded]:
+                              - generic:
+                                - img
+                                - text: 供应链协同 
+                              - menu:
+                                - generic:
+                                  - link "销售订单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/salesOrder
+                                    - menuitem "销售订单"
+                                - generic:
+                                  - link "销售退货单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/sales_returns
+                                    - menuitem "销售退货单"
+                                - generic:
+                                  - link "销售出货":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/shipment_application
+                                    - menuitem "销售出货"
+                                - generic:
+                                  - link "销售发货":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/deliver_goods
+                                    - menuitem "销售发货"
+                                - generic:
+                                  - link "供应商档案":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/supplier-profile
+                                    - menuitem "供应商档案"
+                                - generic:
+                                  - link "供应商物料清单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/supplyList
+                                    - menuitem "供应商物料清单"
+                                - generic:
+                                  - link "物料需求分析":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/materialAnalysis
+                                    - menuitem "物料需求分析"
+                                - generic:
+                                  - link "采购需求":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/purchasing-demand
+                                    - menuitem "采购需求"
+                                - generic:
+                                  - link "采购订单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/purchasing-list
+                                    - menuitem "采购订单"
+                                - generic:
+                                  - link "采购收料":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/delivery-order
+                                    - menuitem "采购收料"
+                                - generic:
+                                  - link "采购退料":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/return-order
+                                    - menuitem "采购退料"
+                                - generic:
+                                  - link "采购退料申请单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/purchase-material-return-application
+                                    - menuitem "采购退料申请单"
+                                - generic:
+                                  - menuitem "委外管理":
+                                    - generic: 委外管理 
+                - generic [ref=f3e8]:
+                  - generic [ref=f3e9]:
+                    - button "返回" [ref=f3e10] [cursor=pointer]
+                    - button "保存" [ref=f3e11] [cursor=pointer]
+                    - button "保存并生效" [ref=f3e12] [cursor=pointer]
+                  - generic [ref=f3e13]:
+                    - generic [ref=f3e14]:
+                      - generic [ref=f3e16]: 基本信息
+                      - generic [ref=f3e18]:
+                        - generic [ref=f3e19]:
+                          - generic [ref=f3e20]: 收料单号：
+                          - generic "采购收料单号" [ref=f3e22]:
+                            - textbox "采购收料单号" [ref=f3e24]:
+                              - /placeholder: 保存后自动生成
+                        - generic [ref=f3e26]:
+                          - generic [ref=f3e27]: "*单据类型："
+                          - generic [ref=f3e30]:
+                            - textbox "请选择" [ref=f3e31] [cursor=pointer]: 其他收料单
+                            - generic:
+                              - generic [ref=f3e33] [cursor=pointer]: 
+                              - text: 
+                        - generic [ref=f3e34]:
+                          - generic [ref=f3e35]: 采购订单号：
+                          - generic [ref=f3e37]:
+                            - textbox "请选择" [disabled] [ref=f3e40]
+                            - button "" [disabled] [ref=f3e43]:
+                              - generic [ref=f3e44]: 
+                        - generic [ref=f3e45]:
+                          - generic [ref=f3e46]: 供应商编码：
+                          - textbox "请选择" [ref=f3e50] [cursor=pointer]
+                        - generic [ref=f3e53]:
+                          - generic [ref=f3e54]: "*供应商名称："
+                          - textbox "请选择" [ref=f3e58] [cursor=pointer]
+                        - generic [ref=f3e61]:
+                          - generic [ref=f3e62]: 计划收料时间：
+                          - generic [ref=f3e64]:
+                            - textbox "选择日期时间" [ref=f3e65]
+                            - generic [ref=f3e67]: 
+                        - generic [ref=f3e68]:
+                          - generic [ref=f3e69]: 备注：
+                          - textbox "请输入" [ref=f3e72]
+                    - generic [ref=f3e73]:
+                      - generic [ref=f3e74]:
+                        - generic [ref=f3e75]:
+                          - generic [ref=f3e76]: 物料信息
+                          - generic [ref=f3e77]:
+                            - button " 添加物料" [ref=f3e78] [cursor=pointer]:
+                              - generic [ref=f3e79]: 
+                              - text: 添加物料
+                            - text: 
+                            - button "导入管理 " [ref=f3e82] [cursor=pointer]:
+                              - generic [ref=f3e83]:
+                                - text: 导入管理
+                                - generic [ref=f3e84]: 
+                            - button " 批量创建批次" [ref=f3e85] [cursor=pointer]:
+                              - generic [ref=f3e86]: 
+                              - text: 批量创建批次
+                          - generic [ref=f3e88]:
+                            - textbox "输入搜索内容" [ref=f3e89]
+                            - button "0/0 搜索下一条" [ref=f3e91] [cursor=pointer]
+                        - generic [ref=f3e96]:
+                          - generic [ref=f3e97]:
+                            - table [ref=f3e100]:
+                              - rowgroup [ref=f3e110]:
+                                - row "行号 物料编码 物料名称 物料规格 物料所属客户 特征参数 收料数量" [ref=f3e111]:
+                                  - columnheader "行号" [ref=f3e112]:
+                                    - generic [ref=f3e114]: 行号
+                                  - columnheader "物料编码" [ref=f3e116]:
+                                    - generic [ref=f3e118]: 物料编码
+                                  - columnheader "物料名称" [ref=f3e120]:
+                                    - generic [ref=f3e122]: 物料名称
+                                  - columnheader "物料规格" [ref=f3e124]:
+                                    - generic [ref=f3e126]: 物料规格
+                                  - columnheader "物料所属客户" [ref=f3e128]:
+                                    - generic [ref=f3e130]: 物料所属客户
+                                  - columnheader "特征参数" [ref=f3e132]:
+                                    - generic [ref=f3e134]: 特征参数
+                                  - columnheader "收料数量" [ref=f3e136]:
+                                    - generic [ref=f3e138]: 收料数量
+                            - table [ref=f3e143]:
+                              - rowgroup [ref=f3e153]:
+                                - row "0080004308085 RF cable RF:射频测试座 F：母座 Z1:2.65*3.0*1.25 (批次) 0" [ref=f3e154]:
+                                  - cell [ref=f3e155]
+                                  - cell "0080004308085" [ref=f3e156]:
+                                    - generic [ref=f3e157]: "0080004308085"
+                                  - cell "RF cable RF:射频测试座 F：母座 Z1:2.65*3.0*1.25 (批次)" [ref=f3e158]:
+                                    - generic [ref=f3e159]: RF cable RF:射频测试座 F：母座 Z1:2.65*3.0*1.25 (批次)
+                                  - cell [ref=f3e160]
+                                  - cell [ref=f3e161]
+                                  - cell [ref=f3e162]:
+                                    - textbox "无" [disabled] [ref=f3e166]
+                                  - cell "0" [ref=f3e167]:
+                                    - textbox "请输入" [disabled] [ref=f3e171]: "0"
+                            - table [ref=f3e174]:
+                              - rowgroup [ref=f3e184]:
+                                - row [ref=f3e185]:
+                                  - cell [ref=f3e186]
+                                  - cell [ref=f3e189]
+                                  - cell [ref=f3e192]
+                                  - cell [ref=f3e195]
+                                  - cell [ref=f3e198]
+                                  - cell [ref=f3e201]
+                                  - cell [ref=f3e204]
+                          - generic:
+                            - generic [ref=f3e207]:
+                              - table [ref=f3e209]:
+                                - rowgroup [ref=f3e212]:
+                                  - row "序号" [ref=f3e213]:
+                                    - generic [ref=f3e216]: 序号
+                              - table [ref=f3e219]:
+                                - rowgroup [ref=f3e222]:
+                                  - row "1" [ref=f3e223]:
+                                    - cell "1" [ref=f3e224]:
+                                      - generic [ref=f3e225]: "1"
+                              - table [ref=f3e227]:
+                                - rowgroup [ref=f3e230]:
+                                  - row "总行数：1" [ref=f3e231]:
+                                    - cell "总行数：1" [ref=f3e232]:
+                                      - generic [ref=f3e234]: 总行数：1
+                            - generic [ref=f3e235]:
+                              - table [ref=f3e237]:
+                                - rowgroup [ref=f3e240]:
+                                  - row "操作 " [ref=f3e241]:
+                                    - generic [ref=f3e245]:
+                                      - generic [ref=f3e246]: 操作
+                                      - generic [ref=f3e247] [cursor=pointer]: 
+                              - table [ref=f3e250]:
+                                - rowgroup [ref=f3e253]:
+                                  - row "删除" [ref=f3e254]:
+                                    - cell "删除" [ref=f3e255]:
+                                      - button "删除" [ref=f3e257] [cursor=pointer]
+                              - table [ref=f3e259]:
+                                - rowgroup [ref=f3e262]:
+                                  - row [ref=f3e263]:
+                                    - cell [ref=f3e264]
+                      - generic [ref=f3e268]:
+                        - generic [ref=f3e269]:
+                          - generic [ref=f3e270]: 批次信息
+                          - text: 
+                          - generic [ref=f3e271]: 物料编码：0080004308085
+                        - generic [ref=f3e275]:
+                          - generic [ref=f3e276]:
+                            - table [ref=f3e279]:
+                              - rowgroup [ref=f3e289]:
+                                - row "批次号 收料状态 收料数量 收料时间 检验单号 检验状态 合格数" [ref=f3e290]:
+                                  - columnheader "批次号" [ref=f3e291]:
+                                    - generic [ref=f3e293]: 批次号
+                                  - columnheader "收料状态" [ref=f3e295]:
+                                    - generic [ref=f3e297]: 收料状态
+                                  - columnheader "收料数量" [ref=f3e299]:
+                                    - generic [ref=f3e301]: 收料数量
+                                  - columnheader "收料时间" [ref=f3e303]:
+                                    - generic [ref=f3e305]: 收料时间
+                                  - columnheader "检验单号" [ref=f3e307]:
+                                    - generic [ref=f3e309]: 检验单号
+                                  - columnheader "检验状态" [ref=f3e311]:
+                                    - generic [ref=f3e313]: 检验状态
+                                  - columnheader "合格数" [ref=f3e315]:
+                                    - generic [ref=f3e317]: 合格数
+                            - generic [ref=f3e320]:
+                              - table:
+                                - rowgroup
+                            - table [ref=f3e324]:
+                              - rowgroup [ref=f3e334]:
+                                - row "已收料:0 未收料:0" [ref=f3e335]:
+                                  - cell [ref=f3e336]
+                                  - cell [ref=f3e339]
+                                  - cell "已收料:0 未收料:0" [ref=f3e342]:
+                                    - generic [ref=f3e344]: 已收料:0 未收料:0
+                                  - cell [ref=f3e345]
+                                  - cell [ref=f3e348]
+                                  - cell [ref=f3e351]
+                                  - cell [ref=f3e354]
+                          - generic:
+                            - generic [ref=f3e357]:
+                              - table [ref=f3e359]:
+                                - rowgroup [ref=f3e362]:
+                                  - row "序号" [ref=f3e363]:
+                                    - generic [ref=f3e366]: 序号
+                              - generic [ref=f3e368]:
+                                - table:
+                                  - rowgroup
+                              - table [ref=f3e370]:
+                                - rowgroup [ref=f3e373]:
+                                  - row "总行数：0" [ref=f3e374]:
+                                    - cell "总行数：0" [ref=f3e375]:
+                                      - generic [ref=f3e377]: 总行数：0
+                            - generic [ref=f3e378]:
+                              - table [ref=f3e380]:
+                                - rowgroup [ref=f3e383]:
+                                  - row "" [ref=f3e384]:
+                                    - generic [ref=f3e389] [cursor=pointer]: 
+                              - generic [ref=f3e391]:
+                                - table:
+                                  - rowgroup
+                              - table [ref=f3e393]:
+                                - rowgroup [ref=f3e396]:
+                                  - row [ref=f3e397]:
+                                    - cell [ref=f3e398]
+                          - generic [ref=f3e401]: 暂无数据
+                      - generic [ref=f3e403]:
+                        - generic [ref=f3e404]:
+                          - generic [ref=f3e405]:
+                            - generic [ref=f3e406]: 附件
+                            - button "点击上传" [ref=f3e409] [cursor=pointer]
+                            - generic [ref=f3e410]: 请上传PDF、MP4、JPG、PNG、Word格式文件
+                          - generic [ref=f3e411]:
+                            - table [ref=f3e413]:
+                              - rowgroup [ref=f3e420]:
+                                - row "序号 附件名称 上传人 上传时间 操作" [ref=f3e421]:
+                                  - columnheader "序号" [ref=f3e422]:
+                                    - generic [ref=f3e423]: 序号
+                                  - columnheader "附件名称" [ref=f3e424]:
+                                    - generic [ref=f3e425]: 附件名称
+                                  - columnheader "上传人" [ref=f3e426]:
+                                    - generic [ref=f3e427]: 上传人
+                                  - columnheader "上传时间" [ref=f3e428]:
+                                    - generic [ref=f3e429]: 上传时间
+                                  - columnheader "操作" [ref=f3e430]:
+                                    - generic [ref=f3e431]: 操作
+                            - generic [ref=f3e432]:
+                              - table:
+                                - rowgroup
+                              - img [ref=f3e436]
+                        - text: 
+                      - text:         
+      - text:   
+```

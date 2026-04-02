@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+          - img [ref=e9]
+        - generic [ref=e10]:
+          - paragraph [ref=e11]: magl
+          - paragraph [ref=e12]: 深圳瑞亿
+      - combobox [expanded] [ref=e13]:
+        - generic [ref=e14]:
+          - textbox "搜索" [active] [ref=e15]: 采购收料
+          - generic [ref=e17]: 
+        - listbox [ref=e18]:
+          - option "采购收料单（可下推版） 供应链协同" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]:
+              - img [ref=e21]
+              - generic [ref=e22]:
+                - paragraph [ref=e23]: 采购收料单（可下推版）
+                - generic [ref=e24]: 供应链协同
+          - option "采购收料 供应链协同" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]:
+              - img [ref=e27]
+              - generic [ref=e28]:
+                - paragraph [ref=e29]: 采购收料
+                - generic [ref=e30]: 供应链协同
+          - option "采购收料 供应链协同" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]:
+              - img [ref=e33]
+              - generic [ref=e34]:
+                - paragraph [ref=e35]: 采购收料
+                - generic [ref=e36]: 供应链协同
+      - list [ref=e37]:
+        - listitem [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+          - generic [ref=e40]: 最近使用
+        - listitem [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+          - generic [ref=e43]: 供应链协同
+        - listitem [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+          - generic [ref=e46]: 计划调度
+        - listitem [ref=e47] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e49]: 生产作业
+        - listitem [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+          - generic [ref=e52]: 数字运营中心
+        - listitem [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e55]: 质量协同
+        - listitem [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+          - generic [ref=e58]: 工业OS
+        - listitem [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - generic [ref=e61]: 市场销售
+        - listitem [ref=e62] [cursor=pointer]:
+          - img [ref=e63]
+          - generic [ref=e64]: 客户关系管理
+        - listitem [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+          - generic [ref=e67]: 配置中心
+        - listitem [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+          - generic [ref=e70]: 设备设施
+        - listitem [ref=e71] [cursor=pointer]:
+          - img [ref=e72]
+          - generic [ref=e73]: 工艺中心
+        - listitem [ref=e74] [cursor=pointer]:
+          - img [ref=e75]
+          - generic [ref=e76]: AI平台
+        - listitem [ref=e77] [cursor=pointer]:
+          - img [ref=e78]
+          - generic [ref=e79]: 仓储配送
+      - img [ref=e80] [cursor=pointer]
+    - main [ref=e81]:
+      - text: 
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - tablist [ref=e87]:
+            - tab "最近使用" [selected] [ref=e88]:
+              - generic [ref=e89]:
+                - img [ref=e90]
+                - text: 最近使用
+          - tabpanel "最近使用" [ref=e92]:
+            - generic [ref=e94] [cursor=pointer]: 全部应用
+            - list [ref=e95]:
+              - listitem [ref=e96] [cursor=pointer]:
+                - img [ref=e99]
+                - text: 采购收料
+              - listitem [ref=e100] [cursor=pointer]:
+                - img [ref=e103]
+                - text: SMT上料防错-瑞亿
+              - listitem [ref=e104] [cursor=pointer]:
+                - img [ref=e107]
+                - text: AI知识库
+              - listitem [ref=e108] [cursor=pointer]:
+                - img [ref=e111]
+                - text: Controller管理
+              - listitem [ref=e112] [cursor=pointer]:
+                - img [ref=e115]
+                - text: 采购收料单（可下推版）
+              - listitem [ref=e116] [cursor=pointer]:
+                - img [ref=e119]
+                - text: 采购入库单
+              - listitem [ref=e120] [cursor=pointer]:
+                - img [ref=e123]
+                - text: 锡膏管理
+              - listitem [ref=e124] [cursor=pointer]:
+                - img [ref=e127]
+                - text: 多来米
+        - text:   
+  - region [ref=e128]
+```

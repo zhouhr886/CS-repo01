@@ -1,0 +1,1949 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e9]
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: magl
+        - paragraph [ref=e12]: 深圳瑞亿
+    - combobox [ref=e13]:
+      - generic [ref=e14]:
+        - textbox "搜索" [ref=e15]
+        - generic [ref=e17]: 
+    - list [ref=e18]:
+      - listitem [ref=e19] [cursor=pointer]:
+        - img [ref=e20]
+        - generic [ref=e21]: 最近使用
+      - listitem [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e24]: 供应链协同
+      - listitem [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+        - generic [ref=e27]: 计划调度
+      - listitem [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e30]: 生产作业
+      - listitem [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e33]: 数字运营中心
+      - listitem [ref=e34] [cursor=pointer]:
+        - img [ref=e35]
+        - generic [ref=e36]: 质量协同
+      - listitem [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+        - generic [ref=e39]: 工业OS
+      - listitem [ref=e40] [cursor=pointer]:
+        - img [ref=e41]
+        - generic [ref=e42]: 市场销售
+      - listitem [ref=e43] [cursor=pointer]:
+        - img [ref=e44]
+        - generic [ref=e45]: 客户关系管理
+      - listitem [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - generic [ref=e48]: 配置中心
+      - listitem [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+        - generic [ref=e51]: 设备设施
+      - listitem [ref=e52] [cursor=pointer]:
+        - img [ref=e53]
+        - generic [ref=e54]: 工艺中心
+      - listitem [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e57]: AI平台
+      - listitem [ref=e58] [cursor=pointer]:
+        - img [ref=e59]
+        - generic [ref=e60]: 仓储配送
+    - img [ref=e61] [cursor=pointer]
+  - main [ref=e62]:
+    - text: 
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - tablist [ref=e68]:
+          - tab "最近使用" [ref=e69]:
+            - generic [ref=e70]:
+              - img [ref=e71]
+              - text: 最近使用
+          - tab "采购收料 " [selected] [ref=e72]:
+            - generic [ref=e73]:
+              - img [ref=e74]
+              - text: 采购收料
+            - generic [ref=e75]: 
+        - tabpanel "采购收料 " [ref=e77]:
+          - iframe [active] [ref=e78]:
+            - generic [active] [ref=f3e1]:
+              - img
+              - generic [ref=f3e3]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox "请输入模块的全称"
+                      - generic [ref=f3e5]: 
+                  - generic:
+                    - generic:
+                      - generic:
+                        - menubar:
+                          - generic:
+                            - menuitem "供应链协同" [expanded]:
+                              - generic:
+                                - img
+                                - text: 供应链协同 
+                              - menu:
+                                - generic:
+                                  - link "销售订单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/salesOrder
+                                    - menuitem "销售订单"
+                                - generic:
+                                  - link "销售退货单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/sales_returns
+                                    - menuitem "销售退货单"
+                                - generic:
+                                  - link "销售出货":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/shipment_application
+                                    - menuitem "销售出货"
+                                - generic:
+                                  - link "销售发货":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/order-model/deliver_goods
+                                    - menuitem "销售发货"
+                                - generic:
+                                  - link "供应商档案":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/supplier-profile
+                                    - menuitem "供应商档案"
+                                - generic:
+                                  - link "供应商物料清单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/supplyList
+                                    - menuitem "供应商物料清单"
+                                - generic:
+                                  - link "物料需求分析":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/materialAnalysis
+                                    - menuitem "物料需求分析"
+                                - generic:
+                                  - link "采购需求":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/purchasing-demand
+                                    - menuitem "采购需求"
+                                - generic:
+                                  - link "采购订单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/purchasing-list
+                                    - menuitem "采购订单"
+                                - generic:
+                                  - link "采购收料":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/delivery-order
+                                    - menuitem "采购收料"
+                                - generic:
+                                  - link "采购退料":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/return-order
+                                    - menuitem "采购退料"
+                                - generic:
+                                  - link "采购退料申请单":
+                                    - /url: /genieos/ams/#/supply-chain-collaboration/procurement-management/purchase-material-return-application
+                                    - menuitem "采购退料申请单"
+                                - generic:
+                                  - menuitem "委外管理":
+                                    - generic: 委外管理 
+                - generic [ref=f3e8]:
+                  - generic [ref=f3e9]:
+                    - button "返回" [ref=f3e10] [cursor=pointer]
+                    - button "保存" [ref=f3e11] [cursor=pointer]
+                    - button "保存并生效" [ref=f3e12] [cursor=pointer]
+                  - generic [ref=f3e13]:
+                    - generic [ref=f3e14]:
+                      - generic [ref=f3e16]: 基本信息
+                      - generic [ref=f3e18]:
+                        - generic [ref=f3e19]:
+                          - generic [ref=f3e20]: 收料单号：
+                          - generic "采购收料单号" [ref=f3e22]:
+                            - textbox "采购收料单号" [ref=f3e24]:
+                              - /placeholder: 保存后自动生成
+                        - generic [ref=f3e26]:
+                          - generic [ref=f3e27]: "*单据类型："
+                          - generic [ref=f3e30]:
+                            - textbox "请选择" [ref=f3e31] [cursor=pointer]: 其他收料单
+                            - generic:
+                              - generic [ref=f3e33] [cursor=pointer]: 
+                              - text: 
+                        - generic [ref=f3e34]:
+                          - generic [ref=f3e35]: 采购订单号：
+                          - generic [ref=f3e37]:
+                            - textbox "请选择" [disabled] [ref=f3e40]
+                            - button "" [disabled] [ref=f3e43]:
+                              - generic [ref=f3e44]: 
+                        - generic [ref=f3e45]:
+                          - generic [ref=f3e46]: 供应商编码：
+                          - textbox "请选择" [ref=f3e50] [cursor=pointer]
+                        - generic [ref=f3e53]:
+                          - generic [ref=f3e54]: "*供应商名称："
+                          - textbox "请选择" [ref=f3e58] [cursor=pointer]
+                        - generic [ref=f3e61]:
+                          - generic [ref=f3e62]: 计划收料时间：
+                          - generic [ref=f3e64]:
+                            - textbox "选择日期时间" [ref=f3e65]
+                            - generic [ref=f3e67]: 
+                        - generic [ref=f3e68]:
+                          - generic [ref=f3e69]: 备注：
+                          - textbox "请输入" [ref=f3e72]
+                    - generic [ref=f3e73]:
+                      - generic [ref=f3e74]:
+                        - generic [ref=f3e75]:
+                          - generic [ref=f3e76]: 物料信息
+                          - generic [ref=f3e77]:
+                            - button " 添加物料" [ref=f3e78] [cursor=pointer]:
+                              - generic [ref=f3e79]: 
+                              - text: 添加物料
+                            - text: 
+                            - button "导入管理 " [ref=f3e82] [cursor=pointer]:
+                              - generic [ref=f3e83]:
+                                - text: 导入管理
+                                - generic [ref=f3e84]: 
+                            - button " 批量创建批次" [disabled] [ref=f3e85]:
+                              - generic [ref=f3e86]: 
+                              - text: 批量创建批次
+                          - generic [ref=f3e88]:
+                            - textbox "输入搜索内容" [ref=f3e89]
+                            - button "0/0 搜索下一条" [ref=f3e91] [cursor=pointer]
+                        - generic [ref=f3e96]:
+                          - generic [ref=f3e97]:
+                            - table [ref=f3e100]:
+                              - rowgroup [ref=f3e110]:
+                                - row "行号 物料编码 物料名称 物料规格 物料所属客户 特征参数 收料数量" [ref=f3e111]:
+                                  - columnheader "行号" [ref=f3e112]:
+                                    - generic [ref=f3e114]: 行号
+                                  - columnheader "物料编码" [ref=f3e116]:
+                                    - generic [ref=f3e118]: 物料编码
+                                  - columnheader "物料名称" [ref=f3e120]:
+                                    - generic [ref=f3e122]: 物料名称
+                                  - columnheader "物料规格" [ref=f3e124]:
+                                    - generic [ref=f3e126]: 物料规格
+                                  - columnheader "物料所属客户" [ref=f3e128]:
+                                    - generic [ref=f3e130]: 物料所属客户
+                                  - columnheader "特征参数" [ref=f3e132]:
+                                    - generic [ref=f3e134]: 特征参数
+                                  - columnheader "收料数量" [ref=f3e136]:
+                                    - generic [ref=f3e138]: 收料数量
+                            - generic [ref=f3e141]:
+                              - table:
+                                - rowgroup
+                            - table [ref=f3e145]:
+                              - rowgroup [ref=f3e155]:
+                                - row [ref=f3e156]:
+                                  - cell [ref=f3e157]
+                                  - cell [ref=f3e160]
+                                  - cell [ref=f3e163]
+                                  - cell [ref=f3e166]
+                                  - cell [ref=f3e169]
+                                  - cell [ref=f3e172]
+                                  - cell [ref=f3e175]
+                          - generic:
+                            - generic [ref=f3e178]:
+                              - table [ref=f3e180]:
+                                - rowgroup [ref=f3e183]:
+                                  - row "序号" [ref=f3e184]:
+                                    - generic [ref=f3e187]: 序号
+                              - generic [ref=f3e189]:
+                                - table:
+                                  - rowgroup
+                              - table [ref=f3e191]:
+                                - rowgroup [ref=f3e194]:
+                                  - row "总行数：0" [ref=f3e195]:
+                                    - cell "总行数：0" [ref=f3e196]:
+                                      - generic [ref=f3e198]: 总行数：0
+                            - generic [ref=f3e199]:
+                              - table [ref=f3e201]:
+                                - rowgroup [ref=f3e204]:
+                                  - row "操作 " [ref=f3e205]:
+                                    - generic [ref=f3e209]:
+                                      - generic [ref=f3e210]: 操作
+                                      - generic [ref=f3e211] [cursor=pointer]: 
+                              - generic [ref=f3e213]:
+                                - table:
+                                  - rowgroup
+                              - table [ref=f3e215]:
+                                - rowgroup [ref=f3e218]:
+                                  - row [ref=f3e219]:
+                                    - cell [ref=f3e220]
+                          - generic [ref=f3e223]: 暂无数据
+                      - generic [ref=f3e225]:
+                        - generic [ref=f3e226]:
+                          - generic [ref=f3e227]: 批次信息
+                          - text: 
+                        - generic [ref=f3e231]:
+                          - generic [ref=f3e232]:
+                            - table [ref=f3e235]:
+                              - rowgroup [ref=f3e245]:
+                                - row "批次号 收料状态 收料数量 收料时间 检验单号 检验状态 合格数" [ref=f3e246]:
+                                  - columnheader "批次号" [ref=f3e247]:
+                                    - generic [ref=f3e249]: 批次号
+                                  - columnheader "收料状态" [ref=f3e251]:
+                                    - generic [ref=f3e253]: 收料状态
+                                  - columnheader "收料数量" [ref=f3e255]:
+                                    - generic [ref=f3e257]: 收料数量
+                                  - columnheader "收料时间" [ref=f3e259]:
+                                    - generic [ref=f3e261]: 收料时间
+                                  - columnheader "检验单号" [ref=f3e263]:
+                                    - generic [ref=f3e265]: 检验单号
+                                  - columnheader "检验状态" [ref=f3e267]:
+                                    - generic [ref=f3e269]: 检验状态
+                                  - columnheader "合格数" [ref=f3e271]:
+                                    - generic [ref=f3e273]: 合格数
+                            - generic [ref=f3e276]:
+                              - table:
+                                - rowgroup
+                            - table [ref=f3e280]:
+                              - rowgroup [ref=f3e290]:
+                                - row "已收料:0 未收料:0" [ref=f3e291]:
+                                  - cell [ref=f3e292]
+                                  - cell [ref=f3e295]
+                                  - cell "已收料:0 未收料:0" [ref=f3e298]:
+                                    - generic [ref=f3e300]: 已收料:0 未收料:0
+                                  - cell [ref=f3e301]
+                                  - cell [ref=f3e304]
+                                  - cell [ref=f3e307]
+                                  - cell [ref=f3e310]
+                          - generic:
+                            - generic [ref=f3e313]:
+                              - table [ref=f3e315]:
+                                - rowgroup [ref=f3e318]:
+                                  - row "序号" [ref=f3e319]:
+                                    - generic [ref=f3e322]: 序号
+                              - generic [ref=f3e324]:
+                                - table:
+                                  - rowgroup
+                              - table [ref=f3e326]:
+                                - rowgroup [ref=f3e329]:
+                                  - row "总行数：0" [ref=f3e330]:
+                                    - cell "总行数：0" [ref=f3e331]:
+                                      - generic [ref=f3e333]: 总行数：0
+                            - generic [ref=f3e334]:
+                              - table [ref=f3e336]:
+                                - rowgroup [ref=f3e339]:
+                                  - row "" [ref=f3e340]:
+                                    - generic [ref=f3e345] [cursor=pointer]: 
+                              - generic [ref=f3e347]:
+                                - table:
+                                  - rowgroup
+                              - table [ref=f3e349]:
+                                - rowgroup [ref=f3e352]:
+                                  - row [ref=f3e353]:
+                                    - cell [ref=f3e354]
+                          - generic [ref=f3e357]: 暂无数据
+                      - generic [ref=f3e359]:
+                        - generic [ref=f3e360]:
+                          - generic [ref=f3e361]:
+                            - generic [ref=f3e362]: 附件
+                            - button "点击上传" [ref=f3e365] [cursor=pointer]
+                            - generic [ref=f3e366]: 请上传PDF、MP4、JPG、PNG、Word格式文件
+                          - generic [ref=f3e367]:
+                            - table [ref=f3e369]:
+                              - rowgroup [ref=f3e376]:
+                                - row "序号 附件名称 上传人 上传时间 操作" [ref=f3e377]:
+                                  - columnheader "序号" [ref=f3e378]:
+                                    - generic [ref=f3e379]: 序号
+                                  - columnheader "附件名称" [ref=f3e380]:
+                                    - generic [ref=f3e381]: 附件名称
+                                  - columnheader "上传人" [ref=f3e382]:
+                                    - generic [ref=f3e383]: 上传人
+                                  - columnheader "上传时间" [ref=f3e384]:
+                                    - generic [ref=f3e385]: 上传时间
+                                  - columnheader "操作" [ref=f3e386]:
+                                    - generic [ref=f3e387]: 操作
+                            - generic [ref=f3e388]:
+                              - table:
+                                - rowgroup
+                              - img [ref=f3e392]
+                        - text: 
+                      - dialog "物料选择" [ref=f3e394]:
+                        - generic [ref=f3e395]: 物料选择
+                        - generic [ref=f3e397]:
+                          - generic [ref=f3e399]:
+                            - generic [ref=f3e400]:
+                              - generic [ref=f3e402]:
+                                - generic [ref=f3e404]:
+                                  - generic [ref=f3e407] [cursor=pointer]: 物料名称
+                                  - generic [ref=f3e409]: 测试
+                                  - generic [ref=f3e411] [cursor=pointer]: 
+                                - textbox "搜索" [ref=f3e414]
+                              - generic [ref=f3e416] [cursor=pointer]: 
+                            - generic:   
+                          - generic [ref=f3e418]:
+                            - table [ref=f3e420]:
+                              - rowgroup [ref=f3e458]:
+                                - row "物料编码 物料类型 物料名称 物料分类 单位 物料所属客户 物料创建人 编制人 物料创建时间 状态 修改时间 版本 物料等级 特征参数 是否辅料 批次管理 BOM 工艺 计量系数分子 计量系数分母 物料规格 物料备注 图号 物料单价 损耗率 材质 物料英文名称 最小生产批量 工厂型号 报工系数 回温时间(分) 超时时间(分) 保质期(月) 是否上传附件" [ref=f3e459]:
+                                  - columnheader [ref=f3e460]
+                                  - columnheader "物料编码" [ref=f3e461]:
+                                    - generic [ref=f3e463]:
+                                      - generic [ref=f3e464]: 物料编码
+                                      - img [ref=f3e466] [cursor=pointer]
+                                      - generic:
+                                        - img [ref=f3e468] [cursor=pointer]
+                                        - img [ref=f3e470] [cursor=pointer]
+                                  - columnheader "物料类型" [ref=f3e472]:
+                                    - generic [ref=f3e474]:
+                                      - generic [ref=f3e475]: 物料类型
+                                      - img [ref=f3e477] [cursor=pointer]
+                                  - columnheader "物料名称" [ref=f3e479]:
+                                    - generic [ref=f3e481]:
+                                      - generic [ref=f3e482]: 物料名称
+                                      - img [ref=f3e484]
+                                      - generic:
+                                        - img [ref=f3e486] [cursor=pointer]
+                                        - img [ref=f3e488] [cursor=pointer]
+                                  - columnheader "物料分类" [ref=f3e490]:
+                                    - generic [ref=f3e492]:
+                                      - generic [ref=f3e493]: 物料分类
+                                      - img [ref=f3e495] [cursor=pointer]
+                                  - columnheader "单位" [ref=f3e497]:
+                                    - generic [ref=f3e499]:
+                                      - generic [ref=f3e500]: 单位
+                                      - img [ref=f3e502] [cursor=pointer]
+                                  - columnheader "物料所属客户" [ref=f3e504]:
+                                    - generic [ref=f3e506]:
+                                      - generic [ref=f3e507]: 物料所属客户
+                                      - img [ref=f3e509] [cursor=pointer]
+                                  - columnheader "物料创建人" [ref=f3e511]:
+                                    - generic [ref=f3e513]:
+                                      - generic [ref=f3e514]: 物料创建人
+                                      - img [ref=f3e516] [cursor=pointer]
+                                  - columnheader "编制人" [ref=f3e518]:
+                                    - generic [ref=f3e520]:
+                                      - generic [ref=f3e521]: 编制人
+                                      - img [ref=f3e523] [cursor=pointer]
+                                  - columnheader "物料创建时间" [ref=f3e525]:
+                                    - generic [ref=f3e527]:
+                                      - generic [ref=f3e528]: 物料创建时间
+                                      - img [ref=f3e530] [cursor=pointer]
+                                  - columnheader "状态" [ref=f3e532]:
+                                    - generic [ref=f3e534]:
+                                      - generic [ref=f3e535]: 状态
+                                      - img [ref=f3e537] [cursor=pointer]
+                                  - columnheader "修改时间" [ref=f3e539]:
+                                    - generic [ref=f3e541]:
+                                      - generic [ref=f3e542]: 修改时间
+                                      - img [ref=f3e544] [cursor=pointer]
+                                  - columnheader "版本" [ref=f3e546]:
+                                    - generic [ref=f3e548]:
+                                      - generic [ref=f3e549]: 版本
+                                      - img [ref=f3e551] [cursor=pointer]
+                                  - columnheader "物料等级" [ref=f3e553]:
+                                    - generic [ref=f3e555]:
+                                      - generic [ref=f3e556]: 物料等级
+                                      - img [ref=f3e558] [cursor=pointer]
+                                  - columnheader "特征参数" [ref=f3e560]:
+                                    - generic [ref=f3e563]: 特征参数
+                                  - columnheader "是否辅料" [ref=f3e564]:
+                                    - generic [ref=f3e566]:
+                                      - generic [ref=f3e567]: 是否辅料
+                                      - img [ref=f3e569] [cursor=pointer]
+                                  - columnheader "批次管理" [ref=f3e571]:
+                                    - generic [ref=f3e573]:
+                                      - generic [ref=f3e574]: 批次管理
+                                      - img [ref=f3e576] [cursor=pointer]
+                                  - columnheader "BOM" [ref=f3e578]:
+                                    - generic [ref=f3e580]:
+                                      - generic [ref=f3e581]: BOM
+                                      - img [ref=f3e583] [cursor=pointer]
+                                  - columnheader "工艺" [ref=f3e585]:
+                                    - generic [ref=f3e587]:
+                                      - generic [ref=f3e588]: 工艺
+                                      - img [ref=f3e590] [cursor=pointer]
+                                  - columnheader "计量系数分子" [ref=f3e592]:
+                                    - generic [ref=f3e594]:
+                                      - generic [ref=f3e595]: 计量系数分子
+                                      - img [ref=f3e597] [cursor=pointer]
+                                  - columnheader "计量系数分母" [ref=f3e599]:
+                                    - generic [ref=f3e601]:
+                                      - generic [ref=f3e602]: 计量系数分母
+                                      - img [ref=f3e604] [cursor=pointer]
+                                  - columnheader "物料规格" [ref=f3e606]:
+                                    - generic [ref=f3e608]:
+                                      - generic [ref=f3e609]: 物料规格
+                                      - img [ref=f3e611] [cursor=pointer]
+                                  - columnheader "物料备注" [ref=f3e613]:
+                                    - generic [ref=f3e615]:
+                                      - generic [ref=f3e616]: 物料备注
+                                      - img [ref=f3e618] [cursor=pointer]
+                                  - columnheader "图号" [ref=f3e620]:
+                                    - generic [ref=f3e622]:
+                                      - generic [ref=f3e623]: 图号
+                                      - img [ref=f3e625] [cursor=pointer]
+                                  - columnheader "物料单价" [ref=f3e627]:
+                                    - generic [ref=f3e629]:
+                                      - generic [ref=f3e630]: 物料单价
+                                      - img [ref=f3e632] [cursor=pointer]
+                                  - columnheader "损耗率" [ref=f3e634]:
+                                    - generic [ref=f3e636]:
+                                      - generic [ref=f3e637]: 损耗率
+                                      - img [ref=f3e639] [cursor=pointer]
+                                  - columnheader "材质" [ref=f3e641]:
+                                    - generic [ref=f3e643]:
+                                      - generic [ref=f3e644]: 材质
+                                      - img [ref=f3e646] [cursor=pointer]
+                                  - columnheader "物料英文名称" [ref=f3e648]:
+                                    - generic [ref=f3e650]:
+                                      - generic [ref=f3e651]: 物料英文名称
+                                      - img [ref=f3e653] [cursor=pointer]
+                                  - columnheader "最小生产批量" [ref=f3e655]:
+                                    - generic [ref=f3e657]:
+                                      - generic [ref=f3e658]: 最小生产批量
+                                      - img [ref=f3e660] [cursor=pointer]
+                                  - columnheader "工厂型号" [ref=f3e662]:
+                                    - generic [ref=f3e664]:
+                                      - generic [ref=f3e665]: 工厂型号
+                                      - img [ref=f3e667] [cursor=pointer]
+                                  - columnheader "报工系数" [ref=f3e669]:
+                                    - generic [ref=f3e671]:
+                                      - generic [ref=f3e672]: 报工系数
+                                      - img [ref=f3e674] [cursor=pointer]
+                                  - columnheader "回温时间(分)" [ref=f3e676]:
+                                    - generic [ref=f3e678]:
+                                      - generic [ref=f3e679]: 回温时间(分)
+                                      - img [ref=f3e681] [cursor=pointer]
+                                  - columnheader "超时时间(分)" [ref=f3e683]:
+                                    - generic [ref=f3e685]:
+                                      - generic [ref=f3e686]: 超时时间(分)
+                                      - img [ref=f3e688] [cursor=pointer]
+                                  - columnheader "保质期(月)" [ref=f3e690]:
+                                    - generic [ref=f3e692]:
+                                      - generic [ref=f3e693]: 保质期(月)
+                                      - img [ref=f3e695] [cursor=pointer]
+                                  - columnheader "是否上传附件" [ref=f3e697]:
+                                    - generic [ref=f3e699]:
+                                      - generic [ref=f3e700]: 是否上传附件
+                                      - img [ref=f3e702] [cursor=pointer]
+                                  - columnheader [ref=f3e704]
+                            - table [ref=f3e706]:
+                              - rowgroup [ref=f3e744]:
+                                - row "WL20250916002 产成品 测试物料2 生产品 Pcs 系统管理员 系统管理员 2025-09-16 16:08:49 生效 2026-03-10 15:32:53 A 无 否 是 无 无 0 1 0.00% 0 1 否" [ref=f3e745]:
+                                  - cell [ref=f3e746]
+                                  - cell "WL20250916002" [ref=f3e747]:
+                                    - generic [ref=f3e749]: WL20250916002
+                                  - cell "产成品" [ref=f3e750]:
+                                    - generic [ref=f3e752]: 产成品
+                                  - cell "测试物料2" [ref=f3e753]:
+                                    - generic [ref=f3e755]: 测试物料2
+                                  - cell "生产品" [ref=f3e756]:
+                                    - generic [ref=f3e758]: 生产品
+                                  - cell "Pcs" [ref=f3e759]:
+                                    - generic [ref=f3e761]: Pcs
+                                  - cell [ref=f3e762]
+                                  - cell "系统管理员" [ref=f3e763]:
+                                    - generic [ref=f3e765]: 系统管理员
+                                  - cell "系统管理员" [ref=f3e766]:
+                                    - generic [ref=f3e768]: 系统管理员
+                                  - cell "2025-09-16 16:08:49" [ref=f3e769]:
+                                    - generic [ref=f3e771]: 2025-09-16 16:08:49
+                                  - cell "生效" [ref=f3e772]:
+                                    - generic [ref=f3e774]: 生效
+                                  - cell "2026-03-10 15:32:53" [ref=f3e775]:
+                                    - generic [ref=f3e777]: 2026-03-10 15:32:53
+                                  - cell [ref=f3e778]
+                                  - cell "A" [ref=f3e779]:
+                                    - generic [ref=f3e781]: A
+                                  - cell "无" [ref=f3e782]:
+                                    - generic [ref=f3e784]: 无
+                                  - cell "否" [ref=f3e785]:
+                                    - generic [ref=f3e787]: 否
+                                  - cell "是" [ref=f3e788]:
+                                    - generic [ref=f3e790]: 是
+                                  - cell "无" [ref=f3e791]:
+                                    - generic [ref=f3e793]: 无
+                                  - cell "无" [ref=f3e794]:
+                                    - generic [ref=f3e796]: 无
+                                  - cell "0" [ref=f3e797]:
+                                    - generic [ref=f3e799]: "0"
+                                  - cell "1" [ref=f3e800]:
+                                    - generic [ref=f3e802]: "1"
+                                  - cell [ref=f3e803]
+                                  - cell [ref=f3e804]
+                                  - cell [ref=f3e805]
+                                  - cell [ref=f3e806]
+                                  - cell "0.00%" [ref=f3e807]:
+                                    - generic [ref=f3e809]: 0.00%
+                                  - cell [ref=f3e810]
+                                  - cell [ref=f3e811]
+                                  - cell "0" [ref=f3e812]:
+                                    - generic [ref=f3e814]: "0"
+                                  - cell [ref=f3e815]
+                                  - cell "1" [ref=f3e816]:
+                                    - generic [ref=f3e818]: "1"
+                                  - cell [ref=f3e819]
+                                  - cell [ref=f3e820]
+                                  - cell [ref=f3e821]
+                                  - cell "否" [ref=f3e822]:
+                                    - generic [ref=f3e824]: 否
+                                  - cell [ref=f3e825]
+                                - row "WL20250916001 半成品 测试物料 生产品 Pcs 渊联测试 系统管理员 系统管理员 2025-09-16 15:40:09 生效 2025-10-14 14:46:19 A 无 是 是 无 无 0 1 0 0.00% 0 否" [ref=f3e826]:
+                                  - cell [ref=f3e827]
+                                  - cell "WL20250916001" [ref=f3e828]:
+                                    - generic [ref=f3e830]: WL20250916001
+                                  - cell "半成品" [ref=f3e831]:
+                                    - generic [ref=f3e833]: 半成品
+                                  - cell "测试物料" [ref=f3e834]:
+                                    - generic [ref=f3e836]: 测试物料
+                                  - cell "生产品" [ref=f3e837]:
+                                    - generic [ref=f3e839]: 生产品
+                                  - cell "Pcs" [ref=f3e840]:
+                                    - generic [ref=f3e842]: Pcs
+                                  - cell "渊联测试" [ref=f3e843]:
+                                    - generic [ref=f3e845]: 渊联测试
+                                  - cell "系统管理员" [ref=f3e846]:
+                                    - generic [ref=f3e848]: 系统管理员
+                                  - cell "系统管理员" [ref=f3e849]:
+                                    - generic [ref=f3e851]: 系统管理员
+                                  - cell "2025-09-16 15:40:09" [ref=f3e852]:
+                                    - generic [ref=f3e854]: 2025-09-16 15:40:09
+                                  - cell "生效" [ref=f3e855]:
+                                    - generic [ref=f3e857]: 生效
+                                  - cell "2025-10-14 14:46:19" [ref=f3e858]:
+                                    - generic [ref=f3e860]: 2025-10-14 14:46:19
+                                  - cell [ref=f3e861]
+                                  - cell "A" [ref=f3e862]:
+                                    - generic [ref=f3e864]: A
+                                  - cell "无" [ref=f3e865]:
+                                    - generic [ref=f3e867]: 无
+                                  - cell "是" [ref=f3e868]:
+                                    - generic [ref=f3e870]: 是
+                                  - cell "是" [ref=f3e871]:
+                                    - generic [ref=f3e873]: 是
+                                  - cell "无" [ref=f3e874]:
+                                    - generic [ref=f3e876]: 无
+                                  - cell "无" [ref=f3e877]:
+                                    - generic [ref=f3e879]: 无
+                                  - cell "0" [ref=f3e880]:
+                                    - generic [ref=f3e882]: "0"
+                                  - cell "1" [ref=f3e883]:
+                                    - generic [ref=f3e885]: "1"
+                                  - cell [ref=f3e886]
+                                  - cell [ref=f3e887]
+                                  - cell [ref=f3e888]
+                                  - cell "0" [ref=f3e889]:
+                                    - generic [ref=f3e891]: "0"
+                                  - cell "0.00%" [ref=f3e892]:
+                                    - generic [ref=f3e894]: 0.00%
+                                  - cell [ref=f3e895]
+                                  - cell [ref=f3e896]
+                                  - cell "0" [ref=f3e897]:
+                                    - generic [ref=f3e899]: "0"
+                                  - cell [ref=f3e900]
+                                  - cell [ref=f3e901]
+                                  - cell [ref=f3e902]
+                                  - cell [ref=f3e903]
+                                  - cell [ref=f3e904]
+                                  - cell "否" [ref=f3e905]:
+                                    - generic [ref=f3e907]: 否
+                                  - cell [ref=f3e908]
+                                - row "01.EJ3.L25W25H150A 原材料 RF测试座 ECT818000163 采购品 Pcs 2025-06-11 18:01:28 生效 2025-06-11 18:01:28 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e909]:
+                                  - cell [ref=f3e910]
+                                  - cell "01.EJ3.L25W25H150A" [ref=f3e911]:
+                                    - generic [ref=f3e913]: 01.EJ3.L25W25H150A
+                                  - cell "原材料" [ref=f3e914]:
+                                    - generic [ref=f3e916]: 原材料
+                                  - cell "RF测试座 ECT818000163" [ref=f3e917]:
+                                    - generic [ref=f3e919]: RF测试座 ECT818000163
+                                  - cell "采购品" [ref=f3e920]:
+                                    - generic [ref=f3e922]: 采购品
+                                  - cell "Pcs" [ref=f3e923]:
+                                    - generic [ref=f3e925]: Pcs
+                                  - cell [ref=f3e926]
+                                  - cell [ref=f3e927]
+                                  - cell [ref=f3e928]
+                                  - cell "2025-06-11 18:01:28" [ref=f3e929]:
+                                    - generic [ref=f3e931]: 2025-06-11 18:01:28
+                                  - cell "生效" [ref=f3e932]:
+                                    - generic [ref=f3e934]: 生效
+                                  - cell "2025-06-11 18:01:28" [ref=f3e935]:
+                                    - generic [ref=f3e937]: 2025-06-11 18:01:28
+                                  - cell [ref=f3e938]
+                                  - cell [ref=f3e939]
+                                  - cell "无" [ref=f3e940]:
+                                    - generic [ref=f3e942]: 无
+                                  - cell "否" [ref=f3e943]:
+                                    - generic [ref=f3e945]: 否
+                                  - cell "是" [ref=f3e946]:
+                                    - generic [ref=f3e948]: 是
+                                  - cell "无" [ref=f3e949]:
+                                    - generic [ref=f3e951]: 无
+                                  - cell "无" [ref=f3e952]:
+                                    - generic [ref=f3e954]: 无
+                                  - cell "1" [ref=f3e955]:
+                                    - generic [ref=f3e957]: "1"
+                                  - cell "1" [ref=f3e958]:
+                                    - generic [ref=f3e960]: "1"
+                                  - cell [ref=f3e961]
+                                  - cell [ref=f3e962]
+                                  - cell [ref=f3e963]
+                                  - cell [ref=f3e964]
+                                  - cell "0.00%" [ref=f3e965]:
+                                    - generic [ref=f3e967]: 0.00%
+                                  - cell [ref=f3e968]
+                                  - cell [ref=f3e969]
+                                  - cell "0" [ref=f3e970]:
+                                    - generic [ref=f3e972]: "0"
+                                  - cell [ref=f3e973]
+                                  - cell [ref=f3e974]
+                                  - cell [ref=f3e975]
+                                  - cell [ref=f3e976]
+                                  - cell [ref=f3e977]
+                                  - cell "否" [ref=f3e978]:
+                                    - generic [ref=f3e980]: 否
+                                  - cell [ref=f3e981]
+                                - row "0080004308085 原材料 RF cable RF:射频测试座 F：母座 Z1:2.65*3.0*1.25 采购品 Pcs 2025-06-11 15:50:53 生效 2025-06-11 15:50:53 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e982]:
+                                  - cell [ref=f3e983]
+                                  - cell "0080004308085" [ref=f3e984]:
+                                    - generic [ref=f3e986]: "0080004308085"
+                                  - cell "原材料" [ref=f3e987]:
+                                    - generic [ref=f3e989]: 原材料
+                                  - cell "RF cable RF:射频测试座 F：母座 Z1:2.65*3.0*1.25" [ref=f3e990]:
+                                    - generic [ref=f3e992]: RF cable RF:射频测试座 F：母座 Z1:2.65*3.0*1.25
+                                  - cell "采购品" [ref=f3e993]:
+                                    - generic [ref=f3e995]: 采购品
+                                  - cell "Pcs" [ref=f3e996]:
+                                    - generic [ref=f3e998]: Pcs
+                                  - cell [ref=f3e999]
+                                  - cell [ref=f3e1000]
+                                  - cell [ref=f3e1001]
+                                  - cell "2025-06-11 15:50:53" [ref=f3e1002]:
+                                    - generic [ref=f3e1004]: 2025-06-11 15:50:53
+                                  - cell "生效" [ref=f3e1005]:
+                                    - generic [ref=f3e1007]: 生效
+                                  - cell "2025-06-11 15:50:53" [ref=f3e1008]:
+                                    - generic [ref=f3e1010]: 2025-06-11 15:50:53
+                                  - cell [ref=f3e1011]
+                                  - cell [ref=f3e1012]
+                                  - cell "无" [ref=f3e1013]:
+                                    - generic [ref=f3e1015]: 无
+                                  - cell "否" [ref=f3e1016]:
+                                    - generic [ref=f3e1018]: 否
+                                  - cell "是" [ref=f3e1019]:
+                                    - generic [ref=f3e1021]: 是
+                                  - cell "无" [ref=f3e1022]:
+                                    - generic [ref=f3e1024]: 无
+                                  - cell "无" [ref=f3e1025]:
+                                    - generic [ref=f3e1027]: 无
+                                  - cell "1" [ref=f3e1028]:
+                                    - generic [ref=f3e1030]: "1"
+                                  - cell "1" [ref=f3e1031]:
+                                    - generic [ref=f3e1033]: "1"
+                                  - cell [ref=f3e1034]
+                                  - cell [ref=f3e1035]
+                                  - cell [ref=f3e1036]
+                                  - cell [ref=f3e1037]
+                                  - cell "0.00%" [ref=f3e1038]:
+                                    - generic [ref=f3e1040]: 0.00%
+                                  - cell [ref=f3e1041]
+                                  - cell [ref=f3e1042]
+                                  - cell "0" [ref=f3e1043]:
+                                    - generic [ref=f3e1045]: "0"
+                                  - cell [ref=f3e1046]
+                                  - cell [ref=f3e1047]
+                                  - cell [ref=f3e1048]
+                                  - cell [ref=f3e1049]
+                                  - cell [ref=f3e1050]
+                                  - cell "否" [ref=f3e1051]:
+                                    - generic [ref=f3e1053]: 否
+                                  - cell [ref=f3e1054]
+                                - row "0080003390077 原材料 20279-001E-01 射频测试座 采购品 Pcs 2025-06-11 15:50:52 生效 2025-06-11 15:50:52 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e1055]:
+                                  - cell [ref=f3e1056]
+                                  - cell "0080003390077" [ref=f3e1057]:
+                                    - generic [ref=f3e1059]: "0080003390077"
+                                  - cell "原材料" [ref=f3e1060]:
+                                    - generic [ref=f3e1062]: 原材料
+                                  - cell "20279-001E-01 射频测试座" [ref=f3e1063]:
+                                    - generic [ref=f3e1065]: 20279-001E-01 射频测试座
+                                  - cell "采购品" [ref=f3e1066]:
+                                    - generic [ref=f3e1068]: 采购品
+                                  - cell "Pcs" [ref=f3e1069]:
+                                    - generic [ref=f3e1071]: Pcs
+                                  - cell [ref=f3e1072]
+                                  - cell [ref=f3e1073]
+                                  - cell [ref=f3e1074]
+                                  - cell "2025-06-11 15:50:52" [ref=f3e1075]:
+                                    - generic [ref=f3e1077]: 2025-06-11 15:50:52
+                                  - cell "生效" [ref=f3e1078]:
+                                    - generic [ref=f3e1080]: 生效
+                                  - cell "2025-06-11 15:50:52" [ref=f3e1081]:
+                                    - generic [ref=f3e1083]: 2025-06-11 15:50:52
+                                  - cell [ref=f3e1084]
+                                  - cell [ref=f3e1085]
+                                  - cell "无" [ref=f3e1086]:
+                                    - generic [ref=f3e1088]: 无
+                                  - cell "否" [ref=f3e1089]:
+                                    - generic [ref=f3e1091]: 否
+                                  - cell "是" [ref=f3e1092]:
+                                    - generic [ref=f3e1094]: 是
+                                  - cell "无" [ref=f3e1095]:
+                                    - generic [ref=f3e1097]: 无
+                                  - cell "无" [ref=f3e1098]:
+                                    - generic [ref=f3e1100]: 无
+                                  - cell "1" [ref=f3e1101]:
+                                    - generic [ref=f3e1103]: "1"
+                                  - cell "1" [ref=f3e1104]:
+                                    - generic [ref=f3e1106]: "1"
+                                  - cell [ref=f3e1107]
+                                  - cell [ref=f3e1108]
+                                  - cell [ref=f3e1109]
+                                  - cell [ref=f3e1110]
+                                  - cell "0.00%" [ref=f3e1111]:
+                                    - generic [ref=f3e1113]: 0.00%
+                                  - cell [ref=f3e1114]
+                                  - cell [ref=f3e1115]
+                                  - cell "0" [ref=f3e1116]:
+                                    - generic [ref=f3e1118]: "0"
+                                  - cell [ref=f3e1119]
+                                  - cell [ref=f3e1120]
+                                  - cell [ref=f3e1121]
+                                  - cell [ref=f3e1122]
+                                  - cell [ref=f3e1123]
+                                  - cell "否" [ref=f3e1124]:
+                                    - generic [ref=f3e1126]: 否
+                                  - cell [ref=f3e1127]
+                                - row "CP0296 原材料 BH705硬件功能测试表 采购品 Pcs 2025-06-11 15:33:51 生效 2025-06-11 15:33:51 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e1128]:
+                                  - cell [ref=f3e1129]
+                                  - cell "CP0296" [ref=f3e1130]:
+                                    - generic [ref=f3e1132]: CP0296
+                                  - cell "原材料" [ref=f3e1133]:
+                                    - generic [ref=f3e1135]: 原材料
+                                  - cell "BH705硬件功能测试表" [ref=f3e1136]:
+                                    - generic [ref=f3e1138]: BH705硬件功能测试表
+                                  - cell "采购品" [ref=f3e1139]:
+                                    - generic [ref=f3e1141]: 采购品
+                                  - cell "Pcs" [ref=f3e1142]:
+                                    - generic [ref=f3e1144]: Pcs
+                                  - cell [ref=f3e1145]
+                                  - cell [ref=f3e1146]
+                                  - cell [ref=f3e1147]
+                                  - cell "2025-06-11 15:33:51" [ref=f3e1148]:
+                                    - generic [ref=f3e1150]: 2025-06-11 15:33:51
+                                  - cell "生效" [ref=f3e1151]:
+                                    - generic [ref=f3e1153]: 生效
+                                  - cell "2025-06-11 15:33:51" [ref=f3e1154]:
+                                    - generic [ref=f3e1156]: 2025-06-11 15:33:51
+                                  - cell [ref=f3e1157]
+                                  - cell [ref=f3e1158]
+                                  - cell "无" [ref=f3e1159]:
+                                    - generic [ref=f3e1161]: 无
+                                  - cell "否" [ref=f3e1162]:
+                                    - generic [ref=f3e1164]: 否
+                                  - cell "是" [ref=f3e1165]:
+                                    - generic [ref=f3e1167]: 是
+                                  - cell "无" [ref=f3e1168]:
+                                    - generic [ref=f3e1170]: 无
+                                  - cell "无" [ref=f3e1171]:
+                                    - generic [ref=f3e1173]: 无
+                                  - cell "1" [ref=f3e1174]:
+                                    - generic [ref=f3e1176]: "1"
+                                  - cell "1" [ref=f3e1177]:
+                                    - generic [ref=f3e1179]: "1"
+                                  - cell [ref=f3e1180]
+                                  - cell [ref=f3e1181]
+                                  - cell [ref=f3e1182]
+                                  - cell [ref=f3e1183]
+                                  - cell "0.00%" [ref=f3e1184]:
+                                    - generic [ref=f3e1186]: 0.00%
+                                  - cell [ref=f3e1187]
+                                  - cell [ref=f3e1188]
+                                  - cell "0" [ref=f3e1189]:
+                                    - generic [ref=f3e1191]: "0"
+                                  - cell [ref=f3e1192]
+                                  - cell [ref=f3e1193]
+                                  - cell [ref=f3e1194]
+                                  - cell [ref=f3e1195]
+                                  - cell [ref=f3e1196]
+                                  - cell "否" [ref=f3e1197]:
+                                    - generic [ref=f3e1199]: 否
+                                  - cell [ref=f3e1200]
+                                - row "RYCTBB00109 原材料 射频测试座-1mm 采购品 Pcs 2025-06-06 12:58:26 生效 2025-09-20 12:12:12 v1 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e1201]:
+                                  - cell [ref=f3e1202]
+                                  - cell "RYCTBB00109" [ref=f3e1203]:
+                                    - generic [ref=f3e1205]: RYCTBB00109
+                                  - cell "原材料" [ref=f3e1206]:
+                                    - generic [ref=f3e1208]: 原材料
+                                  - cell "射频测试座-1mm" [ref=f3e1209]:
+                                    - generic [ref=f3e1211]: 射频测试座-1mm
+                                  - cell "采购品" [ref=f3e1212]:
+                                    - generic [ref=f3e1214]: 采购品
+                                  - cell "Pcs" [ref=f3e1215]:
+                                    - generic [ref=f3e1217]: Pcs
+                                  - cell [ref=f3e1218]
+                                  - cell [ref=f3e1219]
+                                  - cell [ref=f3e1220]
+                                  - cell "2025-06-06 12:58:26" [ref=f3e1221]:
+                                    - generic [ref=f3e1223]: 2025-06-06 12:58:26
+                                  - cell "生效" [ref=f3e1224]:
+                                    - generic [ref=f3e1226]: 生效
+                                  - cell "2025-09-20 12:12:12" [ref=f3e1227]:
+                                    - generic [ref=f3e1229]: 2025-09-20 12:12:12
+                                  - cell "v1" [ref=f3e1230]:
+                                    - generic [ref=f3e1232]: v1
+                                  - cell [ref=f3e1233]
+                                  - cell "无" [ref=f3e1234]:
+                                    - generic [ref=f3e1236]: 无
+                                  - cell "否" [ref=f3e1237]:
+                                    - generic [ref=f3e1239]: 否
+                                  - cell "是" [ref=f3e1240]:
+                                    - generic [ref=f3e1242]: 是
+                                  - cell "无" [ref=f3e1243]:
+                                    - generic [ref=f3e1245]: 无
+                                  - cell "无" [ref=f3e1246]:
+                                    - generic [ref=f3e1248]: 无
+                                  - cell "1" [ref=f3e1249]:
+                                    - generic [ref=f3e1251]: "1"
+                                  - cell "1" [ref=f3e1252]:
+                                    - generic [ref=f3e1254]: "1"
+                                  - cell [ref=f3e1255]
+                                  - cell [ref=f3e1256]
+                                  - cell [ref=f3e1257]
+                                  - cell [ref=f3e1258]
+                                  - cell "0.00%" [ref=f3e1259]:
+                                    - generic [ref=f3e1261]: 0.00%
+                                  - cell [ref=f3e1262]
+                                  - cell [ref=f3e1263]
+                                  - cell "0" [ref=f3e1264]:
+                                    - generic [ref=f3e1266]: "0"
+                                  - cell [ref=f3e1267]
+                                  - cell [ref=f3e1268]
+                                  - cell [ref=f3e1269]
+                                  - cell [ref=f3e1270]
+                                  - cell [ref=f3e1271]
+                                  - cell "否" [ref=f3e1272]:
+                                    - generic [ref=f3e1274]: 否
+                                  - cell [ref=f3e1275]
+                                - row "RYCTBB00078 原材料 RF测试座 采购品 Pcs 2025-06-06 12:58:10 生效 2025-09-20 12:12:18 v1 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e1276]:
+                                  - cell [ref=f3e1277]
+                                  - cell "RYCTBB00078" [ref=f3e1278]:
+                                    - generic [ref=f3e1280]: RYCTBB00078
+                                  - cell "原材料" [ref=f3e1281]:
+                                    - generic [ref=f3e1283]: 原材料
+                                  - cell "RF测试座" [ref=f3e1284]:
+                                    - generic [ref=f3e1286]: RF测试座
+                                  - cell "采购品" [ref=f3e1287]:
+                                    - generic [ref=f3e1289]: 采购品
+                                  - cell "Pcs" [ref=f3e1290]:
+                                    - generic [ref=f3e1292]: Pcs
+                                  - cell [ref=f3e1293]
+                                  - cell [ref=f3e1294]
+                                  - cell [ref=f3e1295]
+                                  - cell "2025-06-06 12:58:10" [ref=f3e1296]:
+                                    - generic [ref=f3e1298]: 2025-06-06 12:58:10
+                                  - cell "生效" [ref=f3e1299]:
+                                    - generic [ref=f3e1301]: 生效
+                                  - cell "2025-09-20 12:12:18" [ref=f3e1302]:
+                                    - generic [ref=f3e1304]: 2025-09-20 12:12:18
+                                  - cell "v1" [ref=f3e1305]:
+                                    - generic [ref=f3e1307]: v1
+                                  - cell [ref=f3e1308]
+                                  - cell "无" [ref=f3e1309]:
+                                    - generic [ref=f3e1311]: 无
+                                  - cell "否" [ref=f3e1312]:
+                                    - generic [ref=f3e1314]: 否
+                                  - cell "是" [ref=f3e1315]:
+                                    - generic [ref=f3e1317]: 是
+                                  - cell "无" [ref=f3e1318]:
+                                    - generic [ref=f3e1320]: 无
+                                  - cell "无" [ref=f3e1321]:
+                                    - generic [ref=f3e1323]: 无
+                                  - cell "1" [ref=f3e1324]:
+                                    - generic [ref=f3e1326]: "1"
+                                  - cell "1" [ref=f3e1327]:
+                                    - generic [ref=f3e1329]: "1"
+                                  - cell [ref=f3e1330]
+                                  - cell [ref=f3e1331]
+                                  - cell [ref=f3e1332]
+                                  - cell [ref=f3e1333]
+                                  - cell "0.00%" [ref=f3e1334]:
+                                    - generic [ref=f3e1336]: 0.00%
+                                  - cell [ref=f3e1337]
+                                  - cell [ref=f3e1338]
+                                  - cell "0" [ref=f3e1339]:
+                                    - generic [ref=f3e1341]: "0"
+                                  - cell [ref=f3e1342]
+                                  - cell [ref=f3e1343]
+                                  - cell [ref=f3e1344]
+                                  - cell [ref=f3e1345]
+                                  - cell [ref=f3e1346]
+                                  - cell "否" [ref=f3e1347]:
+                                    - generic [ref=f3e1349]: 否
+                                  - cell [ref=f3e1350]
+                                - row "RYCTBB00110 原材料 射频测试座_2*2.1*1.05mm_4_MM8030-2630_MURATA(村田) 采购品 Pcs 2025-06-06 12:58:08 生效 2025-06-06 12:58:08 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e1351]:
+                                  - cell [ref=f3e1352]
+                                  - cell "RYCTBB00110" [ref=f3e1353]:
+                                    - generic [ref=f3e1355]: RYCTBB00110
+                                  - cell "原材料" [ref=f3e1356]:
+                                    - generic [ref=f3e1358]: 原材料
+                                  - cell "射频测试座_2*2.1*1.05mm_4_MM8030-2630_MURATA(村田)" [ref=f3e1359]:
+                                    - generic [ref=f3e1361]: 射频测试座_2*2.1*1.05mm_4_MM8030-2630_MURATA(村田)
+                                  - cell "采购品" [ref=f3e1362]:
+                                    - generic [ref=f3e1364]: 采购品
+                                  - cell "Pcs" [ref=f3e1365]:
+                                    - generic [ref=f3e1367]: Pcs
+                                  - cell [ref=f3e1368]
+                                  - cell [ref=f3e1369]
+                                  - cell [ref=f3e1370]
+                                  - cell "2025-06-06 12:58:08" [ref=f3e1371]:
+                                    - generic [ref=f3e1373]: 2025-06-06 12:58:08
+                                  - cell "生效" [ref=f3e1374]:
+                                    - generic [ref=f3e1376]: 生效
+                                  - cell "2025-06-06 12:58:08" [ref=f3e1377]:
+                                    - generic [ref=f3e1379]: 2025-06-06 12:58:08
+                                  - cell [ref=f3e1380]
+                                  - cell [ref=f3e1381]
+                                  - cell "无" [ref=f3e1382]:
+                                    - generic [ref=f3e1384]: 无
+                                  - cell "否" [ref=f3e1385]:
+                                    - generic [ref=f3e1387]: 否
+                                  - cell "是" [ref=f3e1388]:
+                                    - generic [ref=f3e1390]: 是
+                                  - cell "无" [ref=f3e1391]:
+                                    - generic [ref=f3e1393]: 无
+                                  - cell "无" [ref=f3e1394]:
+                                    - generic [ref=f3e1396]: 无
+                                  - cell "1" [ref=f3e1397]:
+                                    - generic [ref=f3e1399]: "1"
+                                  - cell "1" [ref=f3e1400]:
+                                    - generic [ref=f3e1402]: "1"
+                                  - cell [ref=f3e1403]
+                                  - cell [ref=f3e1404]
+                                  - cell [ref=f3e1405]
+                                  - cell [ref=f3e1406]
+                                  - cell "0.00%" [ref=f3e1407]:
+                                    - generic [ref=f3e1409]: 0.00%
+                                  - cell [ref=f3e1410]
+                                  - cell [ref=f3e1411]
+                                  - cell "0" [ref=f3e1412]:
+                                    - generic [ref=f3e1414]: "0"
+                                  - cell [ref=f3e1415]
+                                  - cell [ref=f3e1416]
+                                  - cell [ref=f3e1417]
+                                  - cell [ref=f3e1418]
+                                  - cell [ref=f3e1419]
+                                  - cell "否" [ref=f3e1420]:
+                                    - generic [ref=f3e1422]: 否
+                                  - cell [ref=f3e1423]
+                                - row "1.C.11A0000WIFI02 原材料 3代天线测试座 2MM*2MM 电连料号：818011998 采购品 Pcs 2025-06-06 10:46:21 生效 2025-07-21 15:22:08 无 否 是 无 无 1 1 0.00% 0 否" [ref=f3e1424]:
+                                  - cell [ref=f3e1425]
+                                  - cell "1.C.11A0000WIFI02" [ref=f3e1426]:
+                                    - generic [ref=f3e1428]: 1.C.11A0000WIFI02
+                                  - cell "原材料" [ref=f3e1429]:
+                                    - generic [ref=f3e1431]: 原材料
+                                  - cell "3代天线测试座 2MM*2MM 电连料号：818011998" [ref=f3e1432]:
+                                    - generic [ref=f3e1434]: 3代天线测试座 2MM*2MM 电连料号：818011998
+                                  - cell "采购品" [ref=f3e1435]:
+                                    - generic [ref=f3e1437]: 采购品
+                                  - cell "Pcs" [ref=f3e1438]:
+                                    - generic [ref=f3e1440]: Pcs
+                                  - cell [ref=f3e1441]
+                                  - cell [ref=f3e1442]
+                                  - cell [ref=f3e1443]
+                                  - cell "2025-06-06 10:46:21" [ref=f3e1444]:
+                                    - generic [ref=f3e1446]: 2025-06-06 10:46:21
+                                  - cell "生效" [ref=f3e1447]:
+                                    - generic [ref=f3e1449]: 生效
+                                  - cell "2025-07-21 15:22:08" [ref=f3e1450]:
+                                    - generic [ref=f3e1452]: 2025-07-21 15:22:08
+                                  - cell [ref=f3e1453]
+                                  - cell [ref=f3e1454]
+                                  - cell "无" [ref=f3e1455]:
+                                    - generic [ref=f3e1457]: 无
+                                  - cell "否" [ref=f3e1458]:
+                                    - generic [ref=f3e1460]: 否
+                                  - cell "是" [ref=f3e1461]:
+                                    - generic [ref=f3e1463]: 是
+                                  - cell "无" [ref=f3e1464]:
+                                    - generic [ref=f3e1466]: 无
+                                  - cell "无" [ref=f3e1467]:
+                                    - generic [ref=f3e1469]: 无
+                                  - cell "1" [ref=f3e1470]:
+                                    - generic [ref=f3e1472]: "1"
+                                  - cell "1" [ref=f3e1473]:
+                                    - generic [ref=f3e1475]: "1"
+                                  - cell [ref=f3e1476]
+                                  - cell [ref=f3e1477]
+                                  - cell [ref=f3e1478]
+                                  - cell [ref=f3e1479]
+                                  - cell "0.00%" [ref=f3e1480]:
+                                    - generic [ref=f3e1482]: 0.00%
+                                  - cell [ref=f3e1483]
+                                  - cell [ref=f3e1484]
+                                  - cell "0" [ref=f3e1485]:
+                                    - generic [ref=f3e1487]: "0"
+                                  - cell [ref=f3e1488]
+                                  - cell [ref=f3e1489]
+                                  - cell [ref=f3e1490]
+                                  - cell [ref=f3e1491]
+                                  - cell [ref=f3e1492]
+                                  - cell "否" [ref=f3e1493]:
+                                    - generic [ref=f3e1495]: 否
+                                  - cell [ref=f3e1496]
+                            - generic [ref=f3e1497]:
+                              - table [ref=f3e1499]:
+                                - rowgroup [ref=f3e1537]:
+                                  - row [ref=f3e1538]:
+                                    - columnheader [ref=f3e1539]:
+                                      - generic [ref=f3e1542] [cursor=pointer]:
+                                        - checkbox
+                                    - columnheader [ref=f3e1544]
+                                    - columnheader [ref=f3e1545]
+                                    - columnheader [ref=f3e1546]
+                                    - columnheader [ref=f3e1547]
+                                    - columnheader [ref=f3e1548]
+                                    - columnheader [ref=f3e1549]
+                                    - columnheader [ref=f3e1550]
+                                    - columnheader [ref=f3e1551]
+                                    - columnheader [ref=f3e1552]
+                                    - columnheader [ref=f3e1553]
+                                    - columnheader [ref=f3e1554]
+                                    - columnheader [ref=f3e1555]
+                                    - columnheader [ref=f3e1556]
+                                    - columnheader [ref=f3e1557]
+                                    - columnheader [ref=f3e1558]
+                                    - columnheader [ref=f3e1559]
+                                    - columnheader [ref=f3e1560]
+                                    - columnheader [ref=f3e1561]
+                                    - columnheader [ref=f3e1562]
+                                    - columnheader [ref=f3e1563]
+                                    - columnheader [ref=f3e1564]
+                                    - columnheader [ref=f3e1565]
+                                    - columnheader [ref=f3e1566]
+                                    - columnheader [ref=f3e1567]
+                                    - columnheader [ref=f3e1568]
+                                    - columnheader [ref=f3e1569]
+                                    - columnheader [ref=f3e1570]
+                                    - columnheader [ref=f3e1571]
+                                    - columnheader [ref=f3e1572]
+                                    - columnheader [ref=f3e1573]
+                                    - columnheader [ref=f3e1574]
+                                    - columnheader [ref=f3e1575]
+                                    - columnheader [ref=f3e1576]
+                                    - columnheader [ref=f3e1577]
+                                    - columnheader [ref=f3e1578]
+                              - table [ref=f3e1580]:
+                                - rowgroup [ref=f3e1618]:
+                                  - row [ref=f3e1619]:
+                                    - cell [ref=f3e1620]:
+                                      - generic [ref=f3e1625] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1627]
+                                    - cell [ref=f3e1628]
+                                    - cell [ref=f3e1629]
+                                    - cell [ref=f3e1630]
+                                    - cell [ref=f3e1631]
+                                    - cell [ref=f3e1632]
+                                    - cell [ref=f3e1633]
+                                    - cell [ref=f3e1634]
+                                    - cell [ref=f3e1635]
+                                    - cell [ref=f3e1636]
+                                    - cell [ref=f3e1637]
+                                    - cell [ref=f3e1638]
+                                    - cell [ref=f3e1639]
+                                    - cell [ref=f3e1640]
+                                    - cell [ref=f3e1641]
+                                    - cell [ref=f3e1642]
+                                    - cell [ref=f3e1643]
+                                    - cell [ref=f3e1644]
+                                    - cell [ref=f3e1645]
+                                    - cell [ref=f3e1646]
+                                    - cell [ref=f3e1647]
+                                    - cell [ref=f3e1648]
+                                    - cell [ref=f3e1649]
+                                    - cell [ref=f3e1650]
+                                    - cell [ref=f3e1651]
+                                    - cell [ref=f3e1652]
+                                    - cell [ref=f3e1653]
+                                    - cell [ref=f3e1654]
+                                    - cell [ref=f3e1655]
+                                    - cell [ref=f3e1656]
+                                    - cell [ref=f3e1657]
+                                    - cell [ref=f3e1658]
+                                    - cell [ref=f3e1659]
+                                    - cell [ref=f3e1660]
+                                    - cell [ref=f3e1661]
+                                  - row [ref=f3e1662]:
+                                    - cell [ref=f3e1663]:
+                                      - generic [ref=f3e1668] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1670]
+                                    - cell [ref=f3e1671]
+                                    - cell [ref=f3e1672]
+                                    - cell [ref=f3e1673]
+                                    - cell [ref=f3e1674]
+                                    - cell [ref=f3e1675]
+                                    - cell [ref=f3e1676]
+                                    - cell [ref=f3e1677]
+                                    - cell [ref=f3e1678]
+                                    - cell [ref=f3e1679]
+                                    - cell [ref=f3e1680]
+                                    - cell [ref=f3e1681]
+                                    - cell [ref=f3e1682]
+                                    - cell [ref=f3e1683]
+                                    - cell [ref=f3e1684]
+                                    - cell [ref=f3e1685]
+                                    - cell [ref=f3e1686]
+                                    - cell [ref=f3e1687]
+                                    - cell [ref=f3e1688]
+                                    - cell [ref=f3e1689]
+                                    - cell [ref=f3e1690]
+                                    - cell [ref=f3e1691]
+                                    - cell [ref=f3e1692]
+                                    - cell [ref=f3e1693]
+                                    - cell [ref=f3e1694]
+                                    - cell [ref=f3e1695]
+                                    - cell [ref=f3e1696]
+                                    - cell [ref=f3e1697]
+                                    - cell [ref=f3e1698]
+                                    - cell [ref=f3e1699]
+                                    - cell [ref=f3e1700]
+                                    - cell [ref=f3e1701]
+                                    - cell [ref=f3e1702]
+                                    - cell [ref=f3e1703]
+                                    - cell [ref=f3e1704]
+                                  - row [ref=f3e1705]:
+                                    - cell [ref=f3e1706]:
+                                      - generic [ref=f3e1711] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1713]
+                                    - cell [ref=f3e1714]
+                                    - cell [ref=f3e1715]
+                                    - cell [ref=f3e1716]
+                                    - cell [ref=f3e1717]
+                                    - cell [ref=f3e1718]
+                                    - cell [ref=f3e1719]
+                                    - cell [ref=f3e1720]
+                                    - cell [ref=f3e1721]
+                                    - cell [ref=f3e1722]
+                                    - cell [ref=f3e1723]
+                                    - cell [ref=f3e1724]
+                                    - cell [ref=f3e1725]
+                                    - cell [ref=f3e1726]
+                                    - cell [ref=f3e1727]
+                                    - cell [ref=f3e1728]
+                                    - cell [ref=f3e1729]
+                                    - cell [ref=f3e1730]
+                                    - cell [ref=f3e1731]
+                                    - cell [ref=f3e1732]
+                                    - cell [ref=f3e1733]
+                                    - cell [ref=f3e1734]
+                                    - cell [ref=f3e1735]
+                                    - cell [ref=f3e1736]
+                                    - cell [ref=f3e1737]
+                                    - cell [ref=f3e1738]
+                                    - cell [ref=f3e1739]
+                                    - cell [ref=f3e1740]
+                                    - cell [ref=f3e1741]
+                                    - cell [ref=f3e1742]
+                                    - cell [ref=f3e1743]
+                                    - cell [ref=f3e1744]
+                                    - cell [ref=f3e1745]
+                                    - cell [ref=f3e1746]
+                                    - cell [ref=f3e1747]
+                                  - row [ref=f3e1748]:
+                                    - cell [ref=f3e1749]:
+                                      - generic [ref=f3e1754] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1756]
+                                    - cell [ref=f3e1757]
+                                    - cell [ref=f3e1758]
+                                    - cell [ref=f3e1759]
+                                    - cell [ref=f3e1760]
+                                    - cell [ref=f3e1761]
+                                    - cell [ref=f3e1762]
+                                    - cell [ref=f3e1763]
+                                    - cell [ref=f3e1764]
+                                    - cell [ref=f3e1765]
+                                    - cell [ref=f3e1766]
+                                    - cell [ref=f3e1767]
+                                    - cell [ref=f3e1768]
+                                    - cell [ref=f3e1769]
+                                    - cell [ref=f3e1770]
+                                    - cell [ref=f3e1771]
+                                    - cell [ref=f3e1772]
+                                    - cell [ref=f3e1773]
+                                    - cell [ref=f3e1774]
+                                    - cell [ref=f3e1775]
+                                    - cell [ref=f3e1776]
+                                    - cell [ref=f3e1777]
+                                    - cell [ref=f3e1778]
+                                    - cell [ref=f3e1779]
+                                    - cell [ref=f3e1780]
+                                    - cell [ref=f3e1781]
+                                    - cell [ref=f3e1782]
+                                    - cell [ref=f3e1783]
+                                    - cell [ref=f3e1784]
+                                    - cell [ref=f3e1785]
+                                    - cell [ref=f3e1786]
+                                    - cell [ref=f3e1787]
+                                    - cell [ref=f3e1788]
+                                    - cell [ref=f3e1789]
+                                    - cell [ref=f3e1790]
+                                  - row [ref=f3e1791]:
+                                    - cell [ref=f3e1792]:
+                                      - generic [ref=f3e1797] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1799]
+                                    - cell [ref=f3e1800]
+                                    - cell [ref=f3e1801]
+                                    - cell [ref=f3e1802]
+                                    - cell [ref=f3e1803]
+                                    - cell [ref=f3e1804]
+                                    - cell [ref=f3e1805]
+                                    - cell [ref=f3e1806]
+                                    - cell [ref=f3e1807]
+                                    - cell [ref=f3e1808]
+                                    - cell [ref=f3e1809]
+                                    - cell [ref=f3e1810]
+                                    - cell [ref=f3e1811]
+                                    - cell [ref=f3e1812]
+                                    - cell [ref=f3e1813]
+                                    - cell [ref=f3e1814]
+                                    - cell [ref=f3e1815]
+                                    - cell [ref=f3e1816]
+                                    - cell [ref=f3e1817]
+                                    - cell [ref=f3e1818]
+                                    - cell [ref=f3e1819]
+                                    - cell [ref=f3e1820]
+                                    - cell [ref=f3e1821]
+                                    - cell [ref=f3e1822]
+                                    - cell [ref=f3e1823]
+                                    - cell [ref=f3e1824]
+                                    - cell [ref=f3e1825]
+                                    - cell [ref=f3e1826]
+                                    - cell [ref=f3e1827]
+                                    - cell [ref=f3e1828]
+                                    - cell [ref=f3e1829]
+                                    - cell [ref=f3e1830]
+                                    - cell [ref=f3e1831]
+                                    - cell [ref=f3e1832]
+                                    - cell [ref=f3e1833]
+                                  - row [ref=f3e1834]:
+                                    - cell [ref=f3e1835]:
+                                      - generic [ref=f3e1840] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1842]
+                                    - cell [ref=f3e1843]
+                                    - cell [ref=f3e1844]
+                                    - cell [ref=f3e1845]
+                                    - cell [ref=f3e1846]
+                                    - cell [ref=f3e1847]
+                                    - cell [ref=f3e1848]
+                                    - cell [ref=f3e1849]
+                                    - cell [ref=f3e1850]
+                                    - cell [ref=f3e1851]
+                                    - cell [ref=f3e1852]
+                                    - cell [ref=f3e1853]
+                                    - cell [ref=f3e1854]
+                                    - cell [ref=f3e1855]
+                                    - cell [ref=f3e1856]
+                                    - cell [ref=f3e1857]
+                                    - cell [ref=f3e1858]
+                                    - cell [ref=f3e1859]
+                                    - cell [ref=f3e1860]
+                                    - cell [ref=f3e1861]
+                                    - cell [ref=f3e1862]
+                                    - cell [ref=f3e1863]
+                                    - cell [ref=f3e1864]
+                                    - cell [ref=f3e1865]
+                                    - cell [ref=f3e1866]
+                                    - cell [ref=f3e1867]
+                                    - cell [ref=f3e1868]
+                                    - cell [ref=f3e1869]
+                                    - cell [ref=f3e1870]
+                                    - cell [ref=f3e1871]
+                                    - cell [ref=f3e1872]
+                                    - cell [ref=f3e1873]
+                                    - cell [ref=f3e1874]
+                                    - cell [ref=f3e1875]
+                                    - cell [ref=f3e1876]
+                                  - row [ref=f3e1877]:
+                                    - cell [ref=f3e1878]:
+                                      - generic [ref=f3e1883] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1885]
+                                    - cell [ref=f3e1886]
+                                    - cell [ref=f3e1887]
+                                    - cell [ref=f3e1888]
+                                    - cell [ref=f3e1889]
+                                    - cell [ref=f3e1890]
+                                    - cell [ref=f3e1891]
+                                    - cell [ref=f3e1892]
+                                    - cell [ref=f3e1893]
+                                    - cell [ref=f3e1894]
+                                    - cell [ref=f3e1895]
+                                    - cell [ref=f3e1896]
+                                    - cell [ref=f3e1897]
+                                    - cell [ref=f3e1898]
+                                    - cell [ref=f3e1899]
+                                    - cell [ref=f3e1900]
+                                    - cell [ref=f3e1901]
+                                    - cell [ref=f3e1902]
+                                    - cell [ref=f3e1903]
+                                    - cell [ref=f3e1904]
+                                    - cell [ref=f3e1905]
+                                    - cell [ref=f3e1906]
+                                    - cell [ref=f3e1907]
+                                    - cell [ref=f3e1908]
+                                    - cell [ref=f3e1909]
+                                    - cell [ref=f3e1910]
+                                    - cell [ref=f3e1911]
+                                    - cell [ref=f3e1912]
+                                    - cell [ref=f3e1913]
+                                    - cell [ref=f3e1914]
+                                    - cell [ref=f3e1915]
+                                    - cell [ref=f3e1916]
+                                    - cell [ref=f3e1917]
+                                    - cell [ref=f3e1918]
+                                    - cell [ref=f3e1919]
+                                  - row [ref=f3e1920]:
+                                    - cell [ref=f3e1921]:
+                                      - generic [ref=f3e1926] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1928]
+                                    - cell [ref=f3e1929]
+                                    - cell [ref=f3e1930]
+                                    - cell [ref=f3e1931]
+                                    - cell [ref=f3e1932]
+                                    - cell [ref=f3e1933]
+                                    - cell [ref=f3e1934]
+                                    - cell [ref=f3e1935]
+                                    - cell [ref=f3e1936]
+                                    - cell [ref=f3e1937]
+                                    - cell [ref=f3e1938]
+                                    - cell [ref=f3e1939]
+                                    - cell [ref=f3e1940]
+                                    - cell [ref=f3e1941]
+                                    - cell [ref=f3e1942]
+                                    - cell [ref=f3e1943]
+                                    - cell [ref=f3e1944]
+                                    - cell [ref=f3e1945]
+                                    - cell [ref=f3e1946]
+                                    - cell [ref=f3e1947]
+                                    - cell [ref=f3e1948]
+                                    - cell [ref=f3e1949]
+                                    - cell [ref=f3e1950]
+                                    - cell [ref=f3e1951]
+                                    - cell [ref=f3e1952]
+                                    - cell [ref=f3e1953]
+                                    - cell [ref=f3e1954]
+                                    - cell [ref=f3e1955]
+                                    - cell [ref=f3e1956]
+                                    - cell [ref=f3e1957]
+                                    - cell [ref=f3e1958]
+                                    - cell [ref=f3e1959]
+                                    - cell [ref=f3e1960]
+                                    - cell [ref=f3e1961]
+                                    - cell [ref=f3e1962]
+                                  - row [ref=f3e1963]:
+                                    - cell [ref=f3e1964]:
+                                      - generic [ref=f3e1969] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e1971]
+                                    - cell [ref=f3e1972]
+                                    - cell [ref=f3e1973]
+                                    - cell [ref=f3e1974]
+                                    - cell [ref=f3e1975]
+                                    - cell [ref=f3e1976]
+                                    - cell [ref=f3e1977]
+                                    - cell [ref=f3e1978]
+                                    - cell [ref=f3e1979]
+                                    - cell [ref=f3e1980]
+                                    - cell [ref=f3e1981]
+                                    - cell [ref=f3e1982]
+                                    - cell [ref=f3e1983]
+                                    - cell [ref=f3e1984]
+                                    - cell [ref=f3e1985]
+                                    - cell [ref=f3e1986]
+                                    - cell [ref=f3e1987]
+                                    - cell [ref=f3e1988]
+                                    - cell [ref=f3e1989]
+                                    - cell [ref=f3e1990]
+                                    - cell [ref=f3e1991]
+                                    - cell [ref=f3e1992]
+                                    - cell [ref=f3e1993]
+                                    - cell [ref=f3e1994]
+                                    - cell [ref=f3e1995]
+                                    - cell [ref=f3e1996]
+                                    - cell [ref=f3e1997]
+                                    - cell [ref=f3e1998]
+                                    - cell [ref=f3e1999]
+                                    - cell [ref=f3e2000]
+                                    - cell [ref=f3e2001]
+                                    - cell [ref=f3e2002]
+                                    - cell [ref=f3e2003]
+                                    - cell [ref=f3e2004]
+                                    - cell [ref=f3e2005]
+                                  - row [ref=f3e2006]:
+                                    - cell [ref=f3e2007]:
+                                      - generic [ref=f3e2012] [cursor=pointer]:
+                                        - checkbox
+                                    - cell [ref=f3e2014]
+                                    - cell [ref=f3e2015]
+                                    - cell [ref=f3e2016]
+                                    - cell [ref=f3e2017]
+                                    - cell [ref=f3e2018]
+                                    - cell [ref=f3e2019]
+                                    - cell [ref=f3e2020]
+                                    - cell [ref=f3e2021]
+                                    - cell [ref=f3e2022]
+                                    - cell [ref=f3e2023]
+                                    - cell [ref=f3e2024]
+                                    - cell [ref=f3e2025]
+                                    - cell [ref=f3e2026]
+                                    - cell [ref=f3e2027]
+                                    - cell [ref=f3e2028]
+                                    - cell [ref=f3e2029]
+                                    - cell [ref=f3e2030]
+                                    - cell [ref=f3e2031]
+                                    - cell [ref=f3e2032]
+                                    - cell [ref=f3e2033]
+                                    - cell [ref=f3e2034]
+                                    - cell [ref=f3e2035]
+                                    - cell [ref=f3e2036]
+                                    - cell [ref=f3e2037]
+                                    - cell [ref=f3e2038]
+                                    - cell [ref=f3e2039]
+                                    - cell [ref=f3e2040]
+                                    - cell [ref=f3e2041]
+                                    - cell [ref=f3e2042]
+                                    - cell [ref=f3e2043]
+                                    - cell [ref=f3e2044]
+                                    - cell [ref=f3e2045]
+                                    - cell [ref=f3e2046]
+                                    - cell [ref=f3e2047]
+                                    - cell [ref=f3e2048]
+                            - generic [ref=f3e2049]:
+                              - table [ref=f3e2051]:
+                                - rowgroup [ref=f3e2089]:
+                                  - row "" [ref=f3e2090]:
+                                    - columnheader [ref=f3e2091]
+                                    - columnheader [ref=f3e2092]
+                                    - columnheader [ref=f3e2093]
+                                    - columnheader [ref=f3e2094]
+                                    - columnheader [ref=f3e2095]
+                                    - columnheader [ref=f3e2096]
+                                    - columnheader [ref=f3e2097]
+                                    - columnheader [ref=f3e2098]
+                                    - columnheader [ref=f3e2099]
+                                    - columnheader [ref=f3e2100]
+                                    - columnheader [ref=f3e2101]
+                                    - columnheader [ref=f3e2102]
+                                    - columnheader [ref=f3e2103]
+                                    - columnheader [ref=f3e2104]
+                                    - columnheader [ref=f3e2105]
+                                    - columnheader [ref=f3e2106]
+                                    - columnheader [ref=f3e2107]
+                                    - columnheader [ref=f3e2108]
+                                    - columnheader [ref=f3e2109]
+                                    - columnheader [ref=f3e2110]
+                                    - columnheader [ref=f3e2111]
+                                    - columnheader [ref=f3e2112]
+                                    - columnheader [ref=f3e2113]
+                                    - columnheader [ref=f3e2114]
+                                    - columnheader [ref=f3e2115]
+                                    - columnheader [ref=f3e2116]
+                                    - columnheader [ref=f3e2117]
+                                    - columnheader [ref=f3e2118]
+                                    - columnheader [ref=f3e2119]
+                                    - columnheader [ref=f3e2120]
+                                    - columnheader [ref=f3e2121]
+                                    - columnheader [ref=f3e2122]
+                                    - columnheader [ref=f3e2123]
+                                    - columnheader [ref=f3e2124]
+                                    - columnheader [ref=f3e2125]
+                                    - columnheader "" [ref=f3e2126]:
+                                      - generic [ref=f3e2129] [cursor=pointer]: 
+                              - table [ref=f3e2131]:
+                                - rowgroup [ref=f3e2169]:
+                                  - row [ref=f3e2170]:
+                                    - cell [ref=f3e2171]
+                                    - cell [ref=f3e2172]
+                                    - cell [ref=f3e2173]
+                                    - cell [ref=f3e2174]
+                                    - cell [ref=f3e2175]
+                                    - cell [ref=f3e2176]
+                                    - cell [ref=f3e2177]
+                                    - cell [ref=f3e2178]
+                                    - cell [ref=f3e2179]
+                                    - cell [ref=f3e2180]
+                                    - cell [ref=f3e2181]
+                                    - cell [ref=f3e2182]
+                                    - cell [ref=f3e2183]
+                                    - cell [ref=f3e2184]
+                                    - cell [ref=f3e2185]
+                                    - cell [ref=f3e2186]
+                                    - cell [ref=f3e2187]
+                                    - cell [ref=f3e2188]
+                                    - cell [ref=f3e2189]
+                                    - cell [ref=f3e2190]
+                                    - cell [ref=f3e2191]
+                                    - cell [ref=f3e2192]
+                                    - cell [ref=f3e2193]
+                                    - cell [ref=f3e2194]
+                                    - cell [ref=f3e2195]
+                                    - cell [ref=f3e2196]
+                                    - cell [ref=f3e2197]
+                                    - cell [ref=f3e2198]
+                                    - cell [ref=f3e2199]
+                                    - cell [ref=f3e2200]
+                                    - cell [ref=f3e2201]
+                                    - cell [ref=f3e2202]
+                                    - cell [ref=f3e2203]
+                                    - cell [ref=f3e2204]
+                                    - cell [ref=f3e2205]
+                                    - cell [ref=f3e2206]
+                                  - row [ref=f3e2207]:
+                                    - cell [ref=f3e2208]
+                                    - cell [ref=f3e2209]
+                                    - cell [ref=f3e2210]
+                                    - cell [ref=f3e2211]
+                                    - cell [ref=f3e2212]
+                                    - cell [ref=f3e2213]
+                                    - cell [ref=f3e2214]
+                                    - cell [ref=f3e2215]
+                                    - cell [ref=f3e2216]
+                                    - cell [ref=f3e2217]
+                                    - cell [ref=f3e2218]
+                                    - cell [ref=f3e2219]
+                                    - cell [ref=f3e2220]
+                                    - cell [ref=f3e2221]
+                                    - cell [ref=f3e2222]
+                                    - cell [ref=f3e2223]
+                                    - cell [ref=f3e2224]
+                                    - cell [ref=f3e2225]
+                                    - cell [ref=f3e2226]
+                                    - cell [ref=f3e2227]
+                                    - cell [ref=f3e2228]
+                                    - cell [ref=f3e2229]
+                                    - cell [ref=f3e2230]
+                                    - cell [ref=f3e2231]
+                                    - cell [ref=f3e2232]
+                                    - cell [ref=f3e2233]
+                                    - cell [ref=f3e2234]
+                                    - cell [ref=f3e2235]
+                                    - cell [ref=f3e2236]
+                                    - cell [ref=f3e2237]
+                                    - cell [ref=f3e2238]
+                                    - cell [ref=f3e2239]
+                                    - cell [ref=f3e2240]
+                                    - cell [ref=f3e2241]
+                                    - cell [ref=f3e2242]
+                                    - cell [ref=f3e2243]
+                                  - row [ref=f3e2244]:
+                                    - cell [ref=f3e2245]
+                                    - cell [ref=f3e2246]
+                                    - cell [ref=f3e2247]
+                                    - cell [ref=f3e2248]
+                                    - cell [ref=f3e2249]
+                                    - cell [ref=f3e2250]
+                                    - cell [ref=f3e2251]
+                                    - cell [ref=f3e2252]
+                                    - cell [ref=f3e2253]
+                                    - cell [ref=f3e2254]
+                                    - cell [ref=f3e2255]
+                                    - cell [ref=f3e2256]
+                                    - cell [ref=f3e2257]
+                                    - cell [ref=f3e2258]
+                                    - cell [ref=f3e2259]
+                                    - cell [ref=f3e2260]
+                                    - cell [ref=f3e2261]
+                                    - cell [ref=f3e2262]
+                                    - cell [ref=f3e2263]
+                                    - cell [ref=f3e2264]
+                                    - cell [ref=f3e2265]
+                                    - cell [ref=f3e2266]
+                                    - cell [ref=f3e2267]
+                                    - cell [ref=f3e2268]
+                                    - cell [ref=f3e2269]
+                                    - cell [ref=f3e2270]
+                                    - cell [ref=f3e2271]
+                                    - cell [ref=f3e2272]
+                                    - cell [ref=f3e2273]
+                                    - cell [ref=f3e2274]
+                                    - cell [ref=f3e2275]
+                                    - cell [ref=f3e2276]
+                                    - cell [ref=f3e2277]
+                                    - cell [ref=f3e2278]
+                                    - cell [ref=f3e2279]
+                                    - cell [ref=f3e2280]
+                                  - row [ref=f3e2281]:
+                                    - cell [ref=f3e2282]
+                                    - cell [ref=f3e2283]
+                                    - cell [ref=f3e2284]
+                                    - cell [ref=f3e2285]
+                                    - cell [ref=f3e2286]
+                                    - cell [ref=f3e2287]
+                                    - cell [ref=f3e2288]
+                                    - cell [ref=f3e2289]
+                                    - cell [ref=f3e2290]
+                                    - cell [ref=f3e2291]
+                                    - cell [ref=f3e2292]
+                                    - cell [ref=f3e2293]
+                                    - cell [ref=f3e2294]
+                                    - cell [ref=f3e2295]
+                                    - cell [ref=f3e2296]
+                                    - cell [ref=f3e2297]
+                                    - cell [ref=f3e2298]
+                                    - cell [ref=f3e2299]
+                                    - cell [ref=f3e2300]
+                                    - cell [ref=f3e2301]
+                                    - cell [ref=f3e2302]
+                                    - cell [ref=f3e2303]
+                                    - cell [ref=f3e2304]
+                                    - cell [ref=f3e2305]
+                                    - cell [ref=f3e2306]
+                                    - cell [ref=f3e2307]
+                                    - cell [ref=f3e2308]
+                                    - cell [ref=f3e2309]
+                                    - cell [ref=f3e2310]
+                                    - cell [ref=f3e2311]
+                                    - cell [ref=f3e2312]
+                                    - cell [ref=f3e2313]
+                                    - cell [ref=f3e2314]
+                                    - cell [ref=f3e2315]
+                                    - cell [ref=f3e2316]
+                                    - cell [ref=f3e2317]
+                                  - row [ref=f3e2318]:
+                                    - cell [ref=f3e2319]
+                                    - cell [ref=f3e2320]
+                                    - cell [ref=f3e2321]
+                                    - cell [ref=f3e2322]
+                                    - cell [ref=f3e2323]
+                                    - cell [ref=f3e2324]
+                                    - cell [ref=f3e2325]
+                                    - cell [ref=f3e2326]
+                                    - cell [ref=f3e2327]
+                                    - cell [ref=f3e2328]
+                                    - cell [ref=f3e2329]
+                                    - cell [ref=f3e2330]
+                                    - cell [ref=f3e2331]
+                                    - cell [ref=f3e2332]
+                                    - cell [ref=f3e2333]
+                                    - cell [ref=f3e2334]
+                                    - cell [ref=f3e2335]
+                                    - cell [ref=f3e2336]
+                                    - cell [ref=f3e2337]
+                                    - cell [ref=f3e2338]
+                                    - cell [ref=f3e2339]
+                                    - cell [ref=f3e2340]
+                                    - cell [ref=f3e2341]
+                                    - cell [ref=f3e2342]
+                                    - cell [ref=f3e2343]
+                                    - cell [ref=f3e2344]
+                                    - cell [ref=f3e2345]
+                                    - cell [ref=f3e2346]
+                                    - cell [ref=f3e2347]
+                                    - cell [ref=f3e2348]
+                                    - cell [ref=f3e2349]
+                                    - cell [ref=f3e2350]
+                                    - cell [ref=f3e2351]
+                                    - cell [ref=f3e2352]
+                                    - cell [ref=f3e2353]
+                                    - cell [ref=f3e2354]
+                                  - row [ref=f3e2355]:
+                                    - cell [ref=f3e2356]
+                                    - cell [ref=f3e2357]
+                                    - cell [ref=f3e2358]
+                                    - cell [ref=f3e2359]
+                                    - cell [ref=f3e2360]
+                                    - cell [ref=f3e2361]
+                                    - cell [ref=f3e2362]
+                                    - cell [ref=f3e2363]
+                                    - cell [ref=f3e2364]
+                                    - cell [ref=f3e2365]
+                                    - cell [ref=f3e2366]
+                                    - cell [ref=f3e2367]
+                                    - cell [ref=f3e2368]
+                                    - cell [ref=f3e2369]
+                                    - cell [ref=f3e2370]
+                                    - cell [ref=f3e2371]
+                                    - cell [ref=f3e2372]
+                                    - cell [ref=f3e2373]
+                                    - cell [ref=f3e2374]
+                                    - cell [ref=f3e2375]
+                                    - cell [ref=f3e2376]
+                                    - cell [ref=f3e2377]
+                                    - cell [ref=f3e2378]
+                                    - cell [ref=f3e2379]
+                                    - cell [ref=f3e2380]
+                                    - cell [ref=f3e2381]
+                                    - cell [ref=f3e2382]
+                                    - cell [ref=f3e2383]
+                                    - cell [ref=f3e2384]
+                                    - cell [ref=f3e2385]
+                                    - cell [ref=f3e2386]
+                                    - cell [ref=f3e2387]
+                                    - cell [ref=f3e2388]
+                                    - cell [ref=f3e2389]
+                                    - cell [ref=f3e2390]
+                                    - cell [ref=f3e2391]
+                                  - row [ref=f3e2392]:
+                                    - cell [ref=f3e2393]
+                                    - cell [ref=f3e2394]
+                                    - cell [ref=f3e2395]
+                                    - cell [ref=f3e2396]
+                                    - cell [ref=f3e2397]
+                                    - cell [ref=f3e2398]
+                                    - cell [ref=f3e2399]
+                                    - cell [ref=f3e2400]
+                                    - cell [ref=f3e2401]
+                                    - cell [ref=f3e2402]
+                                    - cell [ref=f3e2403]
+                                    - cell [ref=f3e2404]
+                                    - cell [ref=f3e2405]
+                                    - cell [ref=f3e2406]
+                                    - cell [ref=f3e2407]
+                                    - cell [ref=f3e2408]
+                                    - cell [ref=f3e2409]
+                                    - cell [ref=f3e2410]
+                                    - cell [ref=f3e2411]
+                                    - cell [ref=f3e2412]
+                                    - cell [ref=f3e2413]
+                                    - cell [ref=f3e2414]
+                                    - cell [ref=f3e2415]
+                                    - cell [ref=f3e2416]
+                                    - cell [ref=f3e2417]
+                                    - cell [ref=f3e2418]
+                                    - cell [ref=f3e2419]
+                                    - cell [ref=f3e2420]
+                                    - cell [ref=f3e2421]
+                                    - cell [ref=f3e2422]
+                                    - cell [ref=f3e2423]
+                                    - cell [ref=f3e2424]
+                                    - cell [ref=f3e2425]
+                                    - cell [ref=f3e2426]
+                                    - cell [ref=f3e2427]
+                                    - cell [ref=f3e2428]
+                                  - row [ref=f3e2429]:
+                                    - cell [ref=f3e2430]
+                                    - cell [ref=f3e2431]
+                                    - cell [ref=f3e2432]
+                                    - cell [ref=f3e2433]
+                                    - cell [ref=f3e2434]
+                                    - cell [ref=f3e2435]
+                                    - cell [ref=f3e2436]
+                                    - cell [ref=f3e2437]
+                                    - cell [ref=f3e2438]
+                                    - cell [ref=f3e2439]
+                                    - cell [ref=f3e2440]
+                                    - cell [ref=f3e2441]
+                                    - cell [ref=f3e2442]
+                                    - cell [ref=f3e2443]
+                                    - cell [ref=f3e2444]
+                                    - cell [ref=f3e2445]
+                                    - cell [ref=f3e2446]
+                                    - cell [ref=f3e2447]
+                                    - cell [ref=f3e2448]
+                                    - cell [ref=f3e2449]
+                                    - cell [ref=f3e2450]
+                                    - cell [ref=f3e2451]
+                                    - cell [ref=f3e2452]
+                                    - cell [ref=f3e2453]
+                                    - cell [ref=f3e2454]
+                                    - cell [ref=f3e2455]
+                                    - cell [ref=f3e2456]
+                                    - cell [ref=f3e2457]
+                                    - cell [ref=f3e2458]
+                                    - cell [ref=f3e2459]
+                                    - cell [ref=f3e2460]
+                                    - cell [ref=f3e2461]
+                                    - cell [ref=f3e2462]
+                                    - cell [ref=f3e2463]
+                                    - cell [ref=f3e2464]
+                                    - cell [ref=f3e2465]
+                                  - row [ref=f3e2466]:
+                                    - cell [ref=f3e2467]
+                                    - cell [ref=f3e2468]
+                                    - cell [ref=f3e2469]
+                                    - cell [ref=f3e2470]
+                                    - cell [ref=f3e2471]
+                                    - cell [ref=f3e2472]
+                                    - cell [ref=f3e2473]
+                                    - cell [ref=f3e2474]
+                                    - cell [ref=f3e2475]
+                                    - cell [ref=f3e2476]
+                                    - cell [ref=f3e2477]
+                                    - cell [ref=f3e2478]
+                                    - cell [ref=f3e2479]
+                                    - cell [ref=f3e2480]
+                                    - cell [ref=f3e2481]
+                                    - cell [ref=f3e2482]
+                                    - cell [ref=f3e2483]
+                                    - cell [ref=f3e2484]
+                                    - cell [ref=f3e2485]
+                                    - cell [ref=f3e2486]
+                                    - cell [ref=f3e2487]
+                                    - cell [ref=f3e2488]
+                                    - cell [ref=f3e2489]
+                                    - cell [ref=f3e2490]
+                                    - cell [ref=f3e2491]
+                                    - cell [ref=f3e2492]
+                                    - cell [ref=f3e2493]
+                                    - cell [ref=f3e2494]
+                                    - cell [ref=f3e2495]
+                                    - cell [ref=f3e2496]
+                                    - cell [ref=f3e2497]
+                                    - cell [ref=f3e2498]
+                                    - cell [ref=f3e2499]
+                                    - cell [ref=f3e2500]
+                                    - cell [ref=f3e2501]
+                                    - cell [ref=f3e2502]
+                                  - row [ref=f3e2503]:
+                                    - cell [ref=f3e2504]
+                                    - cell [ref=f3e2505]
+                                    - cell [ref=f3e2506]
+                                    - cell [ref=f3e2507]
+                                    - cell [ref=f3e2508]
+                                    - cell [ref=f3e2509]
+                                    - cell [ref=f3e2510]
+                                    - cell [ref=f3e2511]
+                                    - cell [ref=f3e2512]
+                                    - cell [ref=f3e2513]
+                                    - cell [ref=f3e2514]
+                                    - cell [ref=f3e2515]
+                                    - cell [ref=f3e2516]
+                                    - cell [ref=f3e2517]
+                                    - cell [ref=f3e2518]
+                                    - cell [ref=f3e2519]
+                                    - cell [ref=f3e2520]
+                                    - cell [ref=f3e2521]
+                                    - cell [ref=f3e2522]
+                                    - cell [ref=f3e2523]
+                                    - cell [ref=f3e2524]
+                                    - cell [ref=f3e2525]
+                                    - cell [ref=f3e2526]
+                                    - cell [ref=f3e2527]
+                                    - cell [ref=f3e2528]
+                                    - cell [ref=f3e2529]
+                                    - cell [ref=f3e2530]
+                                    - cell [ref=f3e2531]
+                                    - cell [ref=f3e2532]
+                                    - cell [ref=f3e2533]
+                                    - cell [ref=f3e2534]
+                                    - cell [ref=f3e2535]
+                                    - cell [ref=f3e2536]
+                                    - cell [ref=f3e2537]
+                                    - cell [ref=f3e2538]
+                                    - cell [ref=f3e2539]
+                          - generic [ref=f3e2540]:
+                            - generic [ref=f3e2541]: 已选0条
+                            - generic [ref=f3e2542]:
+                              - generic [ref=f3e2543]: 共 10 条
+                              - generic [ref=f3e2546]:
+                                - textbox "请选择" [ref=f3e2547] [cursor=pointer]: 20条/页
+                                - generic [ref=f3e2549] [cursor=pointer]: 
+                              - button "" [disabled] [ref=f3e2550]:
+                                - generic [ref=f3e2551]: 
+                              - list [ref=f3e2552]:
+                                - listitem [ref=f3e2553]: "1"
+                              - button "" [disabled] [ref=f3e2554]:
+                                - generic [ref=f3e2555]: 
+                              - generic [ref=f3e2556]:
+                                - text: 前往
+                                - spinbutton [ref=f3e2558]: "1"
+                                - text: 页
+                          - generic [ref=f3e2559]:
+                            - button "新增物料" [ref=f3e2560] [cursor=pointer]
+                            - button "取消" [ref=f3e2561] [cursor=pointer]
+                            - button "选择" [ref=f3e2562] [cursor=pointer]
+                            - button "选择并关闭" [ref=f3e2563] [cursor=pointer]
+                          - generic [ref=f3e2565] [cursor=pointer]: 
+      - text:   
+```

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14784","get started link","chromium","2026-03-20","passed","2026-03-20","","example.spec.ts","",""
+"","2068","xigao","chromium","2026-03-20","passed","2026-03-20","","yuanxingxigao.spec.ts","",""
+"","10268","has title","chromium","2026-03-20","passed","2026-03-20","","example.spec.ts","",""
